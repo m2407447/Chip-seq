@@ -1,0 +1,25 @@
+---
+title: "Myc Mel Peakset Analysis"
+author: "m2407447" 
+
+output: html_document
+---
+```{r setup, message=FALSE, warning=FALSE}
+# Load libraries
+library(ChIPseeker)
+library(GenomicRanges)
+
+# Read peak files
+rep1_file <- "C:/Users/Asus/OneDrive/Desktop/RStudio assessment/Chip-seq/mycmelrep1_peaks.xls"
+rep2_file <- "C:/Users/Asus/OneDrive/Desktop/RStudio assessment/Chip-seq/mycmelrep2_peaks.xls"
+
+rep1_peaks <- readPeakFile(rep1_file)
+rep2_peaks <- readPeakFile(rep2_file)
+
+# Find common peaks
+overlaps <- findOverlaps(rep1_peaks, rep2_peaks)
+common_peaks <- rep1_peaks[queryHits(overlaps)]
+
+# View some common peaks
+head(common_peaks)
+
