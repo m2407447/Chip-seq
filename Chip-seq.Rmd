@@ -23,3 +23,18 @@ common_peaks <- rep1_peaks[queryHits(overlaps)]
 # View some common peaks
 head(common_peaks)
 
+
+```{r ranking-peaks, message=FALSE, warning=FALSE}
+# Sort peaks by fold enrichment in descending order
+ranked_peaks <- rep1_peaks[order(rep1_peaks$fold_enrichment, decreasing = TRUE)]
+
+# Select the top 500 peaks
+top_500_peaks <- head(ranked_peaks, 500)
+
+# Optional: View the first few rows of the top 500 peaks
+head(top_500_peaks)
+```
+
+
+
+
