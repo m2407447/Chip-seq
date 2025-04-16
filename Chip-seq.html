@@ -355,22 +355,27 @@ display: none;
 </div>
 
 
-<pre class="r"><code># Load libraries
+<pre class="r"><code># Load libraries (install these first manually in the Console!)
 library(ChIPseeker)
 library(GenomicRanges)
-
-# Read peak files
+library(BSgenome.Hsapiens.UCSC.hg19)
+library(GenomicFeatures)</code></pre>
+<div id="read-in-myc-mel-replicate-peak-files" class="section level2">
+<h2>1. Read in Myc Mel Replicate Peak Files</h2>
+<pre class="r"><code># Load peak files
 rep1_file &lt;- &quot;C:/Users/Asus/OneDrive/Desktop/RStudio assessment/Chip-seq/mycmelrep1_peaks.xls&quot;
 rep2_file &lt;- &quot;C:/Users/Asus/OneDrive/Desktop/RStudio assessment/Chip-seq/mycmelrep2_peaks.xls&quot;
 
 rep1_peaks &lt;- readPeakFile(rep1_file)
-rep2_peaks &lt;- readPeakFile(rep2_file)
-
-# Find common peaks
+rep2_peaks &lt;- readPeakFile(rep2_file)</code></pre>
+</div>
+<div id="find-common-peaks" class="section level2">
+<h2>2. Find Common Peaks</h2>
+<pre class="r"><code># Find overlapping/common peaks
 overlaps &lt;- findOverlaps(rep1_peaks, rep2_peaks)
 common_peaks &lt;- rep1_peaks[queryHits(overlaps)]
 
-# View some common peaks
+# View the first few common peaks
 head(common_peaks)</code></pre>
 <pre><code>## GRanges object with 6 ranges and 7 metadata columns:
 ##       seqnames          ranges strand |    length abs_summit    pileup
@@ -391,6 +396,98 @@ head(common_peaks)</code></pre>
 ##   [6]        12.40486         6.45661         9.64372 mycmelrep1_peak_14
 ##   -------
 ##   seqinfo: 22 sequences from an unspecified genome; no seqlengths</code></pre>
+</div>
+<div id="rank-peaks-by-fold-enrichment-and-select-top-500" class="section level2">
+<h2>3. Rank Peaks by Fold Enrichment and Select Top 500</h2>
+<pre class="r"><code># Rank by fold enrichment (descending)
+ranked_peaks &lt;- common_peaks[order(common_peaks$fold_enrichment, decreasing = TRUE)]
+
+# Select top 500 peaks
+top_500_peaks &lt;- head(ranked_peaks, 500)
+
+# View top ranked peaks
+head(top_500_peaks)</code></pre>
+<pre><code>## GRanges object with 6 ranges and 7 metadata columns:
+##       seqnames              ranges strand |    length abs_summit    pileup
+##          &lt;Rle&gt;           &lt;IRanges&gt;  &lt;Rle&gt; | &lt;integer&gt;  &lt;integer&gt; &lt;numeric&gt;
+##   [1]        4   45965698-45967126      * |      1430   45966486       248
+##   [2]        9   21155249-21158095      * |      2848   21157016       228
+##   [3]        9   21155249-21158095      * |      2848   21157016       228
+##   [4]       12 114345161-114346639      * |      1480  114345880       183
+##   [5]        3   87846836-87847851      * |      1017   87847065       205
+##   [6]        5 136577955-136578699      * |       746  136578211       175
+##       X.log10.pvalue. fold_enrichment X.log10.qvalue.                  name
+##             &lt;numeric&gt;       &lt;numeric&gt;       &lt;numeric&gt;           &lt;character&gt;
+##   [1]         488.149        123.1159         479.841 mycmelrep1_peak_33018
+##   [2]         437.832        111.5354         430.369 mycmelrep1_peak_48303
+##   [3]         437.832        111.5354         430.369 mycmelrep1_peak_48303
+##   [4]         360.959        104.7455         354.200 mycmelrep1_peak_11995
+##   [5]         378.718         96.9533         371.892 mycmelrep1_peak_30691
+##   [6]         336.006         96.8103         329.475 mycmelrep1_peak_38571
+##   -------
+##   seqinfo: 22 sequences from an unspecified genome; no seqlengths</code></pre>
+</div>
+<div id="resize-peaks-to-200bp-around-center" class="section level2">
+<h2>4. Resize Peaks to 200bp Around Center</h2>
+<pre class="r"><code># Resize each peak to 200bp centered on its midpoint
+resized_peaks &lt;- resize(top_500_peaks, width = 200, fix = &quot;center&quot;)
+
+# Get chromosome lengths from the hg19 genome
+genome_lengths &lt;- seqlengths(BSgenome.Hsapiens.UCSC.hg19)
+
+# Ensure chromosome names match
+seqlevelsStyle(resized_peaks) &lt;- &quot;UCSC&quot;
+
+# Assign seqlengths to resized_peaks so we can validate them
+seqlengths(resized_peaks) &lt;- genome_lengths[names(seqlengths(resized_peaks))]
+
+# Keep only peaks that are within the chromosome boundaries
+valid_peaks &lt;- resized_peaks[start(resized_peaks) &gt; 0 &amp; end(resized_peaks) &lt;= seqlengths(resized_peaks)[as.character(seqnames(resized_peaks))]]
+
+# Check how many peaks are valid
+length(valid_peaks)</code></pre>
+<pre><code>## [1] 484</code></pre>
+</div>
+<div id="extract-dna-sequences-from-hg19" class="section level2">
+<h2>5. Extract DNA Sequences from hg19</h2>
+<pre class="r"><code># Fix chromosome naming style
+seqlevelsStyle(resized_peaks) &lt;- &quot;UCSC&quot;
+
+# Extract DNA sequences using hg19 reference genome
+seqs &lt;- getSeq(BSgenome.Hsapiens.UCSC.hg19, valid_peaks)
+
+# Check first few sequences
+head(seqs)</code></pre>
+<pre><code>## DNAStringSet object of length 6:
+##     width seq
+## [1]   200 ACAGCTTTTGCTCATTCAGTATGATGATGGCTGT...TTTTGTCTTTAGTTCTGTTTATGTGATAAACCA
+## [2]   200 GCATGGAATGAAATGAACCTCTGATACTTGGAGT...ATGAATATATATTTAAAACCACAACAAAACACA
+## [3]   200 GCATGGAATGAAATGAACCTCTGATACTTGGAGT...ATGAATATATATTTAAAACCACAACAAAACACA
+## [4]   200 GGAGGAGACGACCTGTGCAGAGGAGAGACACCTG...TCTTCAGGGAAAGCCTGGAGAATGGGAAGTCTT
+## [5]   200 TCAGGTCTTAATGTCATTCGGATCATCACTCTCA...TCTCCCTCACCAGTTCCAACTCCTGTATGTCTA
+## [6]   200 GCAGTATGAAAATGGACTAATACACTTGTCTCTA...TCCAGCCTGGGTGACAGGGTGAAACCCTGTACC</code></pre>
+</div>
+<div id="write-sequences-to-fasta-file" class="section level2">
+<h2>6. Write Sequences to FASTA File</h2>
+<pre class="r"><code># Create a unique identifier for each peak (e.g., peak name or ID)
+names(seqs) &lt;- paste(&quot;peak&quot;, seq_along(seqs), sep=&quot;_&quot;)
+
+# Write the extracted sequences to a FASTA file
+fasta_file &lt;- &quot;extracted_sequences.fasta&quot;
+writeXStringSet(seqs, filepath = fasta_file)
+
+# Check that the FASTA file is written in the working directory
+list.files()</code></pre>
+<pre><code>## [1] &quot;Chip-seq.html&quot;             &quot;Chip-seq.Rmd&quot;             
+## [3] &quot;Chip-seq.Rproj&quot;            &quot;extracted_sequences.fasta&quot;
+## [5] &quot;mycmelrep1_peaks.xls&quot;      &quot;mycmelrep2_peaks.xls&quot;</code></pre>
+</div>
+<div id="final-check-number-of-sequences" class="section level2">
+<h2>7. Final Check: Number of Sequences</h2>
+<pre class="r"><code># Ensure 500 sequences are present
+length(seqs)</code></pre>
+<pre><code>## [1] 484</code></pre>
+</div>
 
 
 

@@ -1,40 +1,106 @@
 ---
 title: "Myc Mel Peakset Analysis"
-author: "m2407447" 
-
+author: "m2407447"
 output: html_document
 ---
+
 ```{r setup, message=FALSE, warning=FALSE}
-# Load libraries
+# Load libraries (install these first manually in the Console!)
 library(ChIPseeker)
 library(GenomicRanges)
+library(BSgenome.Hsapiens.UCSC.hg19)
+library(GenomicFeatures)
+```
 
-# Read peak files
+## 1. Read in Myc Mel Replicate Peak Files
+
+```{r read-peak-files, message=FALSE, warning=FALSE}
+# Load peak files
 rep1_file <- "C:/Users/Asus/OneDrive/Desktop/RStudio assessment/Chip-seq/mycmelrep1_peaks.xls"
 rep2_file <- "C:/Users/Asus/OneDrive/Desktop/RStudio assessment/Chip-seq/mycmelrep2_peaks.xls"
 
 rep1_peaks <- readPeakFile(rep1_file)
 rep2_peaks <- readPeakFile(rep2_file)
+```
 
-# Find common peaks
+## 2. Find Common Peaks
+
+```{r common-peaks, message=FALSE, warning=FALSE}
+# Find overlapping/common peaks
 overlaps <- findOverlaps(rep1_peaks, rep2_peaks)
 common_peaks <- rep1_peaks[queryHits(overlaps)]
 
-# View some common peaks
+# View the first few common peaks
 head(common_peaks)
+```
 
+## 3. Rank Peaks by Fold Enrichment and Select Top 500
 
-```{r ranking-peaks, message=FALSE, warning=FALSE}
-# Sort peaks by fold enrichment in descending order
-ranked_peaks <- rep1_peaks[order(rep1_peaks$fold_enrichment, decreasing = TRUE)]
+```{r rank-top-peaks, message=FALSE, warning=FALSE}
+# Rank by fold enrichment (descending)
+ranked_peaks <- common_peaks[order(common_peaks$fold_enrichment, decreasing = TRUE)]
 
-# Select the top 500 peaks
+# Select top 500 peaks
 top_500_peaks <- head(ranked_peaks, 500)
 
-# Optional: View the first few rows of the top 500 peaks
+# View top ranked peaks
 head(top_500_peaks)
 ```
 
+## 4. Resize Peaks to 200bp Around Center
 
+```{r resize-and-filter, message=FALSE, warning=FALSE}
+# Resize each peak to 200bp centered on its midpoint
+resized_peaks <- resize(top_500_peaks, width = 200, fix = "center")
 
+# Get chromosome lengths from the hg19 genome
+genome_lengths <- seqlengths(BSgenome.Hsapiens.UCSC.hg19)
 
+# Ensure chromosome names match
+seqlevelsStyle(resized_peaks) <- "UCSC"
+
+# Assign seqlengths to resized_peaks so we can validate them
+seqlengths(resized_peaks) <- genome_lengths[names(seqlengths(resized_peaks))]
+
+# Keep only peaks that are within the chromosome boundaries
+valid_peaks <- resized_peaks[start(resized_peaks) > 0 & end(resized_peaks) <= seqlengths(resized_peaks)[as.character(seqnames(resized_peaks))]]
+
+# Check how many peaks are valid
+length(valid_peaks)
+
+```
+
+## 5. Extract DNA Sequences from hg19
+
+```{r extract-sequences, message=FALSE, warning=FALSE}
+# Fix chromosome naming style
+seqlevelsStyle(resized_peaks) <- "UCSC"
+
+# Extract DNA sequences using hg19 reference genome
+seqs <- getSeq(BSgenome.Hsapiens.UCSC.hg19, valid_peaks)
+
+# Check first few sequences
+head(seqs)
+```
+
+## 6. Write Sequences to FASTA File
+
+```{r write-fasta, message=FALSE, warning=FALSE}
+# Create a unique identifier for each peak (e.g., peak name or ID)
+names(seqs) <- paste("peak", seq_along(seqs), sep="_")
+
+# Write the extracted sequences to a FASTA file
+fasta_file <- "extracted_sequences.fasta"
+writeXStringSet(seqs, filepath = fasta_file)
+
+# Check that the FASTA file is written in the working directory
+list.files()
+
+```
+
+## 7. Final Check: Number of Sequences
+
+```{r check-length, message=FALSE, warning=FALSE}
+# Ensure 500 sequences are present
+length(seqs)
+```
