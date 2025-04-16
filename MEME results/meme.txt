@@ -1,0 +1,1686 @@
+********************************************************************************
+MEME - Motif discovery tool
+********************************************************************************
+MEME version 5.5.6 (Release date: Wed Jun 19 13:59:04 2024 -0700)
+
+For further information on how to interpret these results please access https://meme-suite.org/meme.
+To get a copy of the MEME Suite software please access https://meme-suite.org.
+
+********************************************************************************
+
+
+********************************************************************************
+REFERENCE
+********************************************************************************
+If you use this program in your research, please cite:
+
+Timothy L. Bailey and Charles Elkan,
+"Fitting a mixture model by expectation maximization to
+discover motifs in biopolymers",
+Proceedings of the Second International Conference on Intelligent Systems
+for Molecular Biology, pp. 28-36, AAAI Press, Menlo Park, California, 1994.
+********************************************************************************
+
+
+********************************************************************************
+TRAINING SET
+********************************************************************************
+PRIMARY SEQUENCES= extracted_sequences.fasta
+CONTROL SEQUENCES= --none--
+ALPHABET= ACGT
+Sequence name            Weight Length  Sequence name            Weight Length  
+-------------            ------ ------  -------------            ------ ------  
+peak_1                   1.0000    200  peak_2                   1.0000    200  
+peak_3                   1.0000    200  peak_4                   1.0000    200  
+peak_5                   1.0000    200  peak_6                   1.0000    200  
+peak_7                   1.0000    200  peak_8                   1.0000    200  
+peak_9                   1.0000    200  peak_10                  1.0000    200  
+peak_11                  1.0000    200  peak_12                  1.0000    200  
+peak_13                  1.0000    200  peak_14                  1.0000    200  
+peak_15                  1.0000    200  peak_16                  1.0000    200  
+peak_17                  1.0000    200  peak_18                  1.0000    200  
+peak_19                  1.0000    200  peak_20                  1.0000    200  
+peak_21                  1.0000    200  peak_22                  1.0000    200  
+peak_23                  1.0000    200  peak_24                  1.0000    200  
+peak_25                  1.0000    200  peak_26                  1.0000    200  
+peak_27                  1.0000    200  peak_28                  1.0000    200  
+peak_29                  1.0000    200  peak_30                  1.0000    200  
+peak_31                  1.0000    200  peak_32                  1.0000    200  
+peak_33                  1.0000    200  peak_34                  1.0000    200  
+peak_35                  1.0000    200  peak_36                  1.0000    200  
+peak_37                  1.0000    200  peak_38                  1.0000    200  
+peak_39                  1.0000    200  peak_40                  1.0000    200  
+peak_41                  1.0000    200  peak_42                  1.0000    200  
+peak_43                  1.0000    200  peak_44                  1.0000    200  
+peak_45                  1.0000    200  peak_46                  1.0000    200  
+peak_47                  1.0000    200  peak_48                  1.0000    200  
+peak_49                  1.0000    200  peak_50                  1.0000    200  
+peak_51                  1.0000    200  peak_52                  1.0000    200  
+peak_53                  1.0000    200  peak_54                  1.0000    200  
+peak_55                  1.0000    200  peak_56                  1.0000    200  
+peak_57                  1.0000    200  peak_58                  1.0000    200  
+peak_59                  1.0000    200  peak_60                  1.0000    200  
+peak_61                  1.0000    200  peak_62                  1.0000    200  
+peak_63                  1.0000    200  peak_64                  1.0000    200  
+peak_65                  1.0000    200  peak_66                  1.0000    200  
+peak_67                  1.0000    200  peak_68                  1.0000    200  
+peak_69                  1.0000    200  peak_70                  1.0000    200  
+peak_71                  1.0000    200  peak_72                  1.0000    200  
+peak_73                  1.0000    200  peak_74                  1.0000    200  
+peak_75                  1.0000    200  peak_76                  1.0000    200  
+peak_77                  1.0000    200  peak_78                  1.0000    200  
+peak_79                  1.0000    200  peak_80                  1.0000    200  
+peak_81                  1.0000    200  peak_82                  1.0000    200  
+peak_83                  1.0000    200  peak_84                  1.0000    200  
+peak_85                  1.0000    200  peak_86                  1.0000    200  
+peak_87                  1.0000    200  peak_88                  1.0000    200  
+peak_89                  1.0000    200  peak_90                  1.0000    200  
+peak_91                  1.0000    200  peak_92                  1.0000    200  
+peak_93                  1.0000    200  peak_94                  1.0000    200  
+peak_95                  1.0000    200  peak_96                  1.0000    200  
+peak_97                  1.0000    200  peak_98                  1.0000    200  
+peak_99                  1.0000    200  peak_100                 1.0000    200  
+peak_101                 1.0000    200  peak_102                 1.0000    200  
+peak_103                 1.0000    200  peak_104                 1.0000    200  
+peak_105                 1.0000    200  peak_106                 1.0000    200  
+peak_107                 1.0000    200  peak_108                 1.0000    200  
+peak_109                 1.0000    200  peak_110                 1.0000    200  
+peak_111                 1.0000    200  peak_112                 1.0000    200  
+peak_113                 1.0000    200  peak_114                 1.0000    200  
+peak_115                 1.0000    200  peak_116                 1.0000    200  
+peak_117                 1.0000    200  peak_118                 1.0000    200  
+peak_119                 1.0000    200  peak_120                 1.0000    200  
+peak_121                 1.0000    200  peak_122                 1.0000    200  
+peak_123                 1.0000    200  peak_124                 1.0000    200  
+peak_125                 1.0000    200  peak_126                 1.0000    200  
+peak_127                 1.0000    200  peak_128                 1.0000    200  
+peak_129                 1.0000    200  peak_130                 1.0000    200  
+peak_131                 1.0000    200  peak_132                 1.0000    200  
+peak_133                 1.0000    200  peak_134                 1.0000    200  
+peak_135                 1.0000    200  peak_136                 1.0000    200  
+peak_137                 1.0000    200  peak_138                 1.0000    200  
+peak_139                 1.0000    200  peak_140                 1.0000    200  
+peak_141                 1.0000    200  peak_142                 1.0000    200  
+peak_143                 1.0000    200  peak_144                 1.0000    200  
+peak_145                 1.0000    200  peak_146                 1.0000    200  
+peak_147                 1.0000    200  peak_148                 1.0000    200  
+peak_149                 1.0000    200  peak_150                 1.0000    200  
+peak_151                 1.0000    200  peak_152                 1.0000    200  
+peak_153                 1.0000    200  peak_154                 1.0000    200  
+peak_155                 1.0000    200  peak_156                 1.0000    200  
+peak_157                 1.0000    200  peak_158                 1.0000    200  
+peak_159                 1.0000    200  peak_160                 1.0000    200  
+peak_161                 1.0000    200  peak_162                 1.0000    200  
+peak_163                 1.0000    200  peak_164                 1.0000    200  
+peak_165                 1.0000    200  peak_166                 1.0000    200  
+peak_167                 1.0000    200  peak_168                 1.0000    200  
+peak_169                 1.0000    200  peak_170                 1.0000    200  
+peak_171                 1.0000    200  peak_172                 1.0000    200  
+peak_173                 1.0000    200  peak_174                 1.0000    200  
+peak_175                 1.0000    200  peak_176                 1.0000    200  
+peak_177                 1.0000    200  peak_178                 1.0000    200  
+peak_179                 1.0000    200  peak_180                 1.0000    200  
+peak_181                 1.0000    200  peak_182                 1.0000    200  
+peak_183                 1.0000    200  peak_184                 1.0000    200  
+peak_185                 1.0000    200  peak_186                 1.0000    200  
+peak_187                 1.0000    200  peak_188                 1.0000    200  
+peak_189                 1.0000    200  peak_190                 1.0000    200  
+peak_191                 1.0000    200  peak_192                 1.0000    200  
+peak_193                 1.0000    200  peak_194                 1.0000    200  
+peak_195                 1.0000    200  peak_196                 1.0000    200  
+peak_197                 1.0000    200  peak_198                 1.0000    200  
+peak_199                 1.0000    200  peak_200                 1.0000    200  
+peak_201                 1.0000    200  peak_202                 1.0000    200  
+peak_203                 1.0000    200  peak_204                 1.0000    200  
+peak_205                 1.0000    200  peak_206                 1.0000    200  
+peak_207                 1.0000    200  peak_208                 1.0000    200  
+peak_209                 1.0000    200  peak_210                 1.0000    200  
+peak_211                 1.0000    200  peak_212                 1.0000    200  
+peak_213                 1.0000    200  peak_214                 1.0000    200  
+peak_215                 1.0000    200  peak_216                 1.0000    200  
+peak_217                 1.0000    200  peak_218                 1.0000    200  
+peak_219                 1.0000    200  peak_220                 1.0000    200  
+peak_221                 1.0000    200  peak_222                 1.0000    200  
+peak_223                 1.0000    200  peak_224                 1.0000    200  
+peak_225                 1.0000    200  peak_226                 1.0000    200  
+peak_227                 1.0000    200  peak_228                 1.0000    200  
+peak_229                 1.0000    200  peak_230                 1.0000    200  
+peak_231                 1.0000    200  peak_232                 1.0000    200  
+peak_233                 1.0000    200  peak_234                 1.0000    200  
+peak_235                 1.0000    200  peak_236                 1.0000    200  
+peak_237                 1.0000    200  peak_238                 1.0000    200  
+peak_239                 1.0000    200  peak_240                 1.0000    200  
+peak_241                 1.0000    200  peak_242                 1.0000    200  
+peak_243                 1.0000    200  peak_244                 1.0000    200  
+peak_245                 1.0000    200  peak_246                 1.0000    200  
+peak_247                 1.0000    200  peak_248                 1.0000    200  
+peak_249                 1.0000    200  peak_250                 1.0000    200  
+peak_251                 1.0000    200  peak_252                 1.0000    200  
+peak_253                 1.0000    200  peak_254                 1.0000    200  
+peak_255                 1.0000    200  peak_256                 1.0000    200  
+peak_257                 1.0000    200  peak_258                 1.0000    200  
+peak_259                 1.0000    200  peak_260                 1.0000    200  
+peak_261                 1.0000    200  peak_262                 1.0000    200  
+peak_263                 1.0000    200  peak_264                 1.0000    200  
+peak_265                 1.0000    200  peak_266                 1.0000    200  
+peak_267                 1.0000    200  peak_268                 1.0000    200  
+peak_269                 1.0000    200  peak_270                 1.0000    200  
+peak_271                 1.0000    200  peak_272                 1.0000    200  
+peak_273                 1.0000    200  peak_274                 1.0000    200  
+peak_275                 1.0000    200  peak_276                 1.0000    200  
+peak_277                 1.0000    200  peak_278                 1.0000    200  
+peak_279                 1.0000    200  peak_280                 1.0000    200  
+peak_281                 1.0000    200  peak_282                 1.0000    200  
+peak_283                 1.0000    200  peak_284                 1.0000    200  
+peak_285                 1.0000    200  peak_286                 1.0000    200  
+peak_287                 1.0000    200  peak_288                 1.0000    200  
+peak_289                 1.0000    200  peak_290                 1.0000    200  
+peak_291                 1.0000    200  peak_292                 1.0000    200  
+peak_293                 1.0000    200  peak_294                 1.0000    200  
+peak_295                 1.0000    200  peak_296                 1.0000    200  
+peak_297                 1.0000    200  peak_298                 1.0000    200  
+peak_299                 1.0000    200  peak_300                 1.0000    200  
+peak_301                 1.0000    200  peak_302                 1.0000    200  
+peak_303                 1.0000    200  peak_304                 1.0000    200  
+peak_305                 1.0000    200  peak_306                 1.0000    200  
+peak_307                 1.0000    200  peak_308                 1.0000    200  
+peak_309                 1.0000    200  peak_310                 1.0000    200  
+peak_311                 1.0000    200  peak_312                 1.0000    200  
+peak_313                 1.0000    200  peak_314                 1.0000    200  
+peak_315                 1.0000    200  peak_316                 1.0000    200  
+peak_317                 1.0000    200  peak_318                 1.0000    200  
+peak_319                 1.0000    200  peak_320                 1.0000    200  
+peak_321                 1.0000    200  peak_322                 1.0000    200  
+peak_323                 1.0000    200  peak_324                 1.0000    200  
+peak_325                 1.0000    200  peak_326                 1.0000    200  
+peak_327                 1.0000    200  peak_328                 1.0000    200  
+peak_329                 1.0000    200  peak_330                 1.0000    200  
+peak_331                 1.0000    200  peak_332                 1.0000    200  
+peak_333                 1.0000    200  peak_334                 1.0000    200  
+peak_335                 1.0000    200  peak_336                 1.0000    200  
+peak_337                 1.0000    200  peak_338                 1.0000    200  
+peak_339                 1.0000    200  peak_340                 1.0000    200  
+peak_341                 1.0000    200  peak_342                 1.0000    200  
+peak_343                 1.0000    200  peak_344                 1.0000    200  
+peak_345                 1.0000    200  peak_346                 1.0000    200  
+peak_347                 1.0000    200  peak_348                 1.0000    200  
+peak_349                 1.0000    200  peak_350                 1.0000    200  
+peak_351                 1.0000    200  peak_352                 1.0000    200  
+peak_353                 1.0000    200  peak_354                 1.0000    200  
+peak_355                 1.0000    200  peak_356                 1.0000    200  
+peak_357                 1.0000    200  peak_358                 1.0000    200  
+peak_359                 1.0000    200  peak_360                 1.0000    200  
+peak_361                 1.0000    200  peak_362                 1.0000    200  
+peak_363                 1.0000    200  peak_364                 1.0000    200  
+peak_365                 1.0000    200  peak_366                 1.0000    200  
+peak_367                 1.0000    200  peak_368                 1.0000    200  
+peak_369                 1.0000    200  peak_370                 1.0000    200  
+peak_371                 1.0000    200  peak_372                 1.0000    200  
+peak_373                 1.0000    200  peak_374                 1.0000    200  
+peak_375                 1.0000    200  peak_376                 1.0000    200  
+peak_377                 1.0000    200  peak_378                 1.0000    200  
+peak_379                 1.0000    200  peak_380                 1.0000    200  
+peak_381                 1.0000    200  peak_382                 1.0000    200  
+peak_383                 1.0000    200  peak_384                 1.0000    200  
+peak_385                 1.0000    200  peak_386                 1.0000    200  
+peak_387                 1.0000    200  peak_388                 1.0000    200  
+peak_389                 1.0000    200  peak_390                 1.0000    200  
+peak_391                 1.0000    200  peak_392                 1.0000    200  
+peak_393                 1.0000    200  peak_394                 1.0000    200  
+peak_395                 1.0000    200  peak_396                 1.0000    200  
+peak_397                 1.0000    200  peak_398                 1.0000    200  
+peak_399                 1.0000    200  peak_400                 1.0000    200  
+peak_401                 1.0000    200  peak_402                 1.0000    200  
+peak_403                 1.0000    200  peak_404                 1.0000    200  
+peak_405                 1.0000    200  peak_406                 1.0000    200  
+peak_407                 1.0000    200  peak_408                 1.0000    200  
+peak_409                 1.0000    200  peak_410                 1.0000    200  
+peak_411                 1.0000    200  peak_412                 1.0000    200  
+peak_413                 1.0000    200  peak_414                 1.0000    200  
+peak_415                 1.0000    200  peak_416                 1.0000    200  
+peak_417                 1.0000    200  peak_418                 1.0000    200  
+peak_419                 1.0000    200  peak_420                 1.0000    200  
+peak_421                 1.0000    200  peak_422                 1.0000    200  
+peak_423                 1.0000    200  peak_424                 1.0000    200  
+peak_425                 1.0000    200  peak_426                 1.0000    200  
+peak_427                 1.0000    200  peak_428                 1.0000    200  
+peak_429                 1.0000    200  peak_430                 1.0000    200  
+peak_431                 1.0000    200  peak_432                 1.0000    200  
+peak_433                 1.0000    200  peak_434                 1.0000    200  
+peak_435                 1.0000    200  peak_436                 1.0000    200  
+peak_437                 1.0000    200  peak_438                 1.0000    200  
+peak_439                 1.0000    200  peak_440                 1.0000    200  
+peak_441                 1.0000    200  peak_442                 1.0000    200  
+peak_443                 1.0000    200  peak_444                 1.0000    200  
+peak_445                 1.0000    200  peak_446                 1.0000    200  
+peak_447                 1.0000    200  peak_448                 1.0000    200  
+peak_449                 1.0000    200  peak_450                 1.0000    200  
+peak_451                 1.0000    200  peak_452                 1.0000    200  
+peak_453                 1.0000    200  peak_454                 1.0000    200  
+peak_455                 1.0000    200  peak_456                 1.0000    200  
+peak_457                 1.0000    200  peak_458                 1.0000    200  
+peak_459                 1.0000    200  peak_460                 1.0000    200  
+peak_461                 1.0000    200  peak_462                 1.0000    200  
+peak_463                 1.0000    200  peak_464                 1.0000    200  
+peak_465                 1.0000    200  peak_466                 1.0000    200  
+peak_467                 1.0000    200  peak_468                 1.0000    200  
+peak_469                 1.0000    200  peak_470                 1.0000    200  
+peak_471                 1.0000    200  peak_472                 1.0000    200  
+peak_473                 1.0000    200  peak_474                 1.0000    200  
+peak_475                 1.0000    200  peak_476                 1.0000    200  
+peak_477                 1.0000    200  peak_478                 1.0000    200  
+peak_479                 1.0000    200  peak_480                 1.0000    200  
+peak_481                 1.0000    200  peak_482                 1.0000    200  
+peak_483                 1.0000    200  peak_484                 1.0000    200  
+********************************************************************************
+
+********************************************************************************
+COMMAND LINE SUMMARY
+********************************************************************************
+This information can also be useful in the event you wish to report a
+problem with the MEME software.
+
+command: meme extracted_sequences.fasta -dna -oc . -nostatus -time 14400 -mod zoops -nmotifs 3 -minw 6 -maxw 50 -objfun classic -revcomp -markov_order 0 
+
+model:  mod=         zoops    nmotifs=         3    evt=           inf
+objective function:           em=       E-value of product of p-values
+                              starts=   E-value of product of p-values
+strands: + -
+width:  minw=            6    maxw=           50
+nsites: minsites=        2    maxsites=      484    wnsites=       0.8
+theta:  spmap=         uni    spfuzz=        0.5
+em:     prior=   dirichlet    b=            0.01    maxiter=        50
+        distance=    1e-05
+trim:   wg=             11    ws=              1    endgaps=       yes
+data:   n=           96800    N=             484
+sample: seed=            0    hsfrac=          0
+        searchsize=  96800    norand=         no    csites=       1000
+Letter frequencies in dataset:
+A 0.298 C 0.202 G 0.202 T 0.298 
+Background letter frequencies (from file dataset with add-one prior applied):
+A 0.298 C 0.202 G 0.202 T 0.298 
+Background model order: 0
+********************************************************************************
+
+
+********************************************************************************
+MOTIF CAGGCTGGAGTGCAGTGGYGCGATCTYGGCTCACTGCAASCTCYR MEME-1	width =  45  sites =  35  llr = 1593  E-value = 1.2e-444
+********************************************************************************
+--------------------------------------------------------------------------------
+	Motif CAGGCTGGAGTGCAGTGGYGCGATCTYGGCTCACTGCAASCTCYR MEME-1 Description
+--------------------------------------------------------------------------------
+Simplified        A  1911:1::9::1:92:1::3:39::2:21:1:9::::a8::::14
+pos.-specific     C  9:::a::21:1:9::1::716::19:7::a:919119:169285:
+probability       G  :199::a71a:9:18:9a:6171::::79::11::91:13:::15
+matrix            T  1:1::9:1::9:1::9::3:3::91831::91:19:::::18231
+
+         bits    2.3     * *                                      
+                 2.1     * *  *       *           *               
+                 1.8    ** *  * **   **           *   * **   *    
+                 1.6    ** *  * **   **      *   ** * * ***  *    
+Relative         1.4 *******  *********    ***   **** *****  * *  
+Entropy          1.2 *******************   *** * ********** ****  
+(65.7 bits)      0.9 ******************** **********************  
+                 0.7 ******************************************* *
+                 0.5 *********************************************
+                 0.2 *********************************************
+                 0.0 ---------------------------------------------
+
+Multilevel           CAGGCTGGAGTGCAGTGGCGCGATCTCGGCTCACTGCAACCTCCG
+consensus                   C      A   TATA    TA           G  TTA
+sequence                                                          
+                                                                  
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif CAGGCTGGAGTGCAGTGGYGCGATCTYGGCTCACTGCAASCTCYR MEME-1 sites sorted by position p-value
+--------------------------------------------------------------------------------
+Sequence name            Strand  Start   P-value                                Site                   
+-------------            ------  ----- ---------            ---------------------------------------------
+peak_161                     -     36  3.18e-28 CTCTGTCACC CAGGCTGGAGTGCAGTGGCGCGATCTCGGCTCACTGCAAGCTCTG CCTCCCGGGT
+peak_160                     -     36  3.18e-28 CTCTGTCACC CAGGCTGGAGTGCAGTGGCGCGATCTCGGCTCACTGCAAGCTCTG CCTCCCGGGT
+peak_380                     +     11  1.26e-26 CTCTGTTCCC CAGGCTGGAGTGCAGTGGTGCAATCTCGGCTCACTGCAACCTCTG CCTCCTAGGT
+peak_274                     +    144  2.12e-26 CTTTGTCGCC CAGGCTGGAGTGCAGTGGCCCGATCTTGGCTCACTGCAAGCTCCG CCTCCCGGGT
+peak_273                     +    144  2.12e-26 CTTTGTCGCC CAGGCTGGAGTGCAGTGGCCCGATCTTGGCTCACTGCAAGCTCCG CCTCCCGGGT
+peak_272                     +    144  2.12e-26 CTTTGTCGCC CAGGCTGGAGTGCAGTGGCCCGATCTTGGCTCACTGCAAGCTCCG CCTCCCGGGT
+peak_403                     -     63  3.40e-26 CTCTGTTGCC CAGGCTGGAGTGCAGTGGCGTGATCTTGGCTCACTGCAACCTCTA CCTCCCGGAT
+peak_146                     +    148  3.99e-26 CTCTGTCTCC CAGGCTGGAGTGCAGTGGCGTGATTTCGGCTCACTGCAACCTCCG CCTCCTGG  
+peak_69                      +     90  1.37e-25 TCTTGTCACT CAGGCTGGAGTGCAGTGGCACGATCCCGGCTCACTGCAACCTCCA CCCCCCAGCT
+peak_392                     +    135  1.58e-25 CTCTGCCACC CAGGCTGCAGTGCAGTGGCACGATCTCGGCTCACTGCAACCTTTG CCTCCCAGGT
+peak_366                     -    125  1.58e-25 CTCTGTTGCC CAGGCTGGAGTGCAGTGGCACCATCTCGGCTCACTGCAAGCTCCG CCTCCCAGGT
+peak_382                     +     78  2.44e-25 CTCTGTCACC CAGGCTGGAGTGCAGTGGCACGATCTTGGCTCGCTGCAAGCTCCG CCTTCTGGGT
+peak_381                     +     78  2.44e-25 CTCTGTCACC CAGGCTGGAGTGCAGTGGCACGATCTTGGCTCGCTGCAAGCTCCG CCTTCTGGGT
+peak_108                     -    123  2.82e-25 CTCAGTTGCC CAGGCTGGAGTGCAGTGGCGCTATCTCAGCTCACTGCAACCTCCG CCACCCAGGT
+peak_416                     +     47  9.85e-25 ATCCGTCGTC CAGGCTGGAGTGCAATGGCACAATCTTGGCTCACTGCAACCTCCA ACTCCCGGGT
+peak_369                     -    111  3.64e-24 TCTTGTCCCC CAGGCTGGAGTGCAATGGCACGATCTCAGCTCACCGCAACCTCCG CCTCCCGGGT
+peak_116                     -     36  1.11e-22 CTCTGTTGCC CAGGCTGCAGTGCAATGGCGTGATCTCAGCTGACTGCAACCTCTA CCTCCCAAGC
+peak_359                     -    129  3.58e-22 CTCTGTCGCC CAGGCTGGAGTACAGTGGTGTGATCTCAGCTCACTGCCACCTCCA CCTCCTGGGT
+peak_348                     -     51  4.89e-22 CTCTGTCATC CAGGCTGCAGTGCAGTGGTGGGATCTCGACTCACTGCAAGCCTCT GCTTCCTGGG
+peak_347                     -     51  4.89e-22 CTCTGTCATC CAGGCTGCAGTGCAGTGGTGGGATCTCGACTCACTGCAAGCCTCT GCTTCCTGGG
+peak_346                     -     51  4.89e-22 CTCTGTCATC CAGGCTGCAGTGCAGTGGTGGGATCTCGACTCACTGCAAGCCTCT GCTTCCTGGG
+peak_345                     -     51  4.89e-22 CTCTGTCATC CAGGCTGCAGTGCAGTGGTGGGATCTCGACTCACTGCAAGCCTCT GCTTCCTGGG
+peak_277                     -     90  1.10e-21 CACTGTCACC CAAGCTGGAGTGCAACAGCGTGATCTCGGCTCACTGCAACCTCTG CTTCCCGGGT
+peak_243                     +     48  1.98e-21 TCTTGTTGCC TAGTCTGGAGTGCAATGGCGCAATCTCGGCTCACCGCAACCTCCA CCTTCCGGAT
+peak_65                      -    128  6.80e-21 CTCTGTTGCC CAGACTGGAGTGCAGTGGTGCAATGTTGGCTTACTGCAACCTCTG CCCCAGGTTC
+peak_228                     -     44  1.07e-20 CTCTGTAGCC CAGGCTGGAGTGCAGTGGTATGACCTTGGCTCACTGTAGCCTCAA CCCTCTGGGC
+peak_431                     -     67  1.95e-19 CTCTGTTGCC CAGGCTGCAGTGTAGTGGTGCGATTATAGCTCACTGCAGCCTTGA CCTTCTGGGG
+peak_6                       -    132  9.96e-19 CCCTGTCACC CAGGCTGGAATGCAGTGGCGAAATCACAGCTCACTACAGCCTCGA CCTCCTGGGC
+peak_36                      +     74  2.59e-18 CTCTCTCGCC TAGGCTGGAGTGCAGCAGCATGATCTTGACTTACTGCAATCTCTG CCTGCCGAGT
+peak_315                     -     63  1.37e-17 CTGTGTTGCT TAAACTGGAGTGCAGTGGCACAGTTACTGCTCACTGCAGCCTCGA CCTCTGTGGC
+peak_110                     +     84  1.07e-15 CCTAGGCTGG AGTGCAGTGGCGTGATGGCGTGATCTCGGCTCATTGCAACCTCTG CCTCCCAGGC
+peak_109                     +     84  1.07e-15 CCTAGGCTGG AGTGCAGTGGCGTGATGGCGTGATCTCGGCTCATTGCAACCTCTG CCTCCCAGGC
+peak_449                     +     81  3.28e-15 CTTTGTTACT CAAGCTGGGGTACAGTGATGCAGTCATAGTTCACTGCATCTTCAA CCTCCTGGAC
+peak_405                     +     98  1.49e-14 CTTTGTCACC CAGGCTGGCGTGCAGTGGTGCAGCCACTGCAGCCTCGACCTCTAA GGTTCAATCA
+peak_404                     +     98  1.49e-14 CTTTGTCACC CAGGCTGGCGTGCAGTGGTGCAGCCACTGCAGCCTCGACCTCTAA GGTTCAATCA
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif CAGGCTGGAGTGCAGTGGYGCGATCTYGGCTCACTGCAASCTCYR MEME-1 block diagrams
+--------------------------------------------------------------------------------
+SEQUENCE NAME            POSITION P-VALUE  MOTIF DIAGRAM
+-------------            ----------------  -------------
+peak_161                          3.2e-28  35_[-1]_120
+peak_160                          3.2e-28  35_[-1]_120
+peak_380                          1.3e-26  10_[+1]_145
+peak_274                          2.1e-26  143_[+1]_12
+peak_273                          2.1e-26  143_[+1]_12
+peak_272                          2.1e-26  143_[+1]_12
+peak_403                          3.4e-26  62_[-1]_93
+peak_146                            4e-26  147_[+1]_8
+peak_69                           1.4e-25  89_[+1]_66
+peak_392                          1.6e-25  134_[+1]_21
+peak_366                          1.6e-25  124_[-1]_31
+peak_382                          2.4e-25  77_[+1]_78
+peak_381                          2.4e-25  77_[+1]_78
+peak_108                          2.8e-25  122_[-1]_33
+peak_416                          9.8e-25  46_[+1]_109
+peak_369                          3.6e-24  110_[-1]_45
+peak_116                          1.1e-22  35_[-1]_120
+peak_359                          3.6e-22  128_[-1]_27
+peak_348                          4.9e-22  50_[-1]_105
+peak_347                          4.9e-22  50_[-1]_105
+peak_346                          4.9e-22  50_[-1]_105
+peak_345                          4.9e-22  50_[-1]_105
+peak_277                          1.1e-21  89_[-1]_66
+peak_243                            2e-21  47_[+1]_108
+peak_65                           6.8e-21  127_[-1]_28
+peak_228                          1.1e-20  43_[-1]_112
+peak_431                            2e-19  66_[-1]_89
+peak_6                              1e-18  131_[-1]_24
+peak_36                           2.6e-18  73_[+1]_82
+peak_315                          1.4e-17  62_[-1]_93
+peak_110                          1.1e-15  83_[+1]_72
+peak_109                          1.1e-15  83_[+1]_72
+peak_449                          3.3e-15  80_[+1]_75
+peak_405                          1.5e-14  97_[+1]_58
+peak_404                          1.5e-14  97_[+1]_58
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif CAGGCTGGAGTGCAGTGGYGCGATCTYGGCTCACTGCAASCTCYR MEME-1 in BLOCKS format
+--------------------------------------------------------------------------------
+BL   MOTIF CAGGCTGGAGTGCAGTGGYGCGATCTYGGCTCACTGCAASCTCYR width=45 seqs=35
+peak_161                 (   36) CAGGCTGGAGTGCAGTGGCGCGATCTCGGCTCACTGCAAGCTCTG  1 
+peak_160                 (   36) CAGGCTGGAGTGCAGTGGCGCGATCTCGGCTCACTGCAAGCTCTG  1 
+peak_380                 (   11) CAGGCTGGAGTGCAGTGGTGCAATCTCGGCTCACTGCAACCTCTG  1 
+peak_274                 (  144) CAGGCTGGAGTGCAGTGGCCCGATCTTGGCTCACTGCAAGCTCCG  1 
+peak_273                 (  144) CAGGCTGGAGTGCAGTGGCCCGATCTTGGCTCACTGCAAGCTCCG  1 
+peak_272                 (  144) CAGGCTGGAGTGCAGTGGCCCGATCTTGGCTCACTGCAAGCTCCG  1 
+peak_403                 (   63) CAGGCTGGAGTGCAGTGGCGTGATCTTGGCTCACTGCAACCTCTA  1 
+peak_146                 (  148) CAGGCTGGAGTGCAGTGGCGTGATTTCGGCTCACTGCAACCTCCG  1 
+peak_69                  (   90) CAGGCTGGAGTGCAGTGGCACGATCCCGGCTCACTGCAACCTCCA  1 
+peak_392                 (  135) CAGGCTGCAGTGCAGTGGCACGATCTCGGCTCACTGCAACCTTTG  1 
+peak_366                 (  125) CAGGCTGGAGTGCAGTGGCACCATCTCGGCTCACTGCAAGCTCCG  1 
+peak_382                 (   78) CAGGCTGGAGTGCAGTGGCACGATCTTGGCTCGCTGCAAGCTCCG  1 
+peak_381                 (   78) CAGGCTGGAGTGCAGTGGCACGATCTTGGCTCGCTGCAAGCTCCG  1 
+peak_108                 (  123) CAGGCTGGAGTGCAGTGGCGCTATCTCAGCTCACTGCAACCTCCG  1 
+peak_416                 (   47) CAGGCTGGAGTGCAATGGCACAATCTTGGCTCACTGCAACCTCCA  1 
+peak_369                 (  111) CAGGCTGGAGTGCAATGGCACGATCTCAGCTCACCGCAACCTCCG  1 
+peak_116                 (   36) CAGGCTGCAGTGCAATGGCGTGATCTCAGCTGACTGCAACCTCTA  1 
+peak_359                 (  129) CAGGCTGGAGTACAGTGGTGTGATCTCAGCTCACTGCCACCTCCA  1 
+peak_348                 (   51) CAGGCTGCAGTGCAGTGGTGGGATCTCGACTCACTGCAAGCCTCT  1 
+peak_347                 (   51) CAGGCTGCAGTGCAGTGGTGGGATCTCGACTCACTGCAAGCCTCT  1 
+peak_346                 (   51) CAGGCTGCAGTGCAGTGGTGGGATCTCGACTCACTGCAAGCCTCT  1 
+peak_345                 (   51) CAGGCTGCAGTGCAGTGGTGGGATCTCGACTCACTGCAAGCCTCT  1 
+peak_277                 (   90) CAAGCTGGAGTGCAACAGCGTGATCTCGGCTCACTGCAACCTCTG  1 
+peak_243                 (   48) TAGTCTGGAGTGCAATGGCGCAATCTCGGCTCACCGCAACCTCCA  1 
+peak_65                  (  128) CAGACTGGAGTGCAGTGGTGCAATGTTGGCTTACTGCAACCTCTG  1 
+peak_228                 (   44) CAGGCTGGAGTGCAGTGGTATGACCTTGGCTCACTGTAGCCTCAA  1 
+peak_431                 (   67) CAGGCTGCAGTGTAGTGGTGCGATTATAGCTCACTGCAGCCTTGA  1 
+peak_6                   (  132) CAGGCTGGAATGCAGTGGCGAAATCACAGCTCACTACAGCCTCGA  1 
+peak_36                  (   74) TAGGCTGGAGTGCAGCAGCATGATCTTGACTTACTGCAATCTCTG  1 
+peak_315                 (   63) TAAACTGGAGTGCAGTGGCACAGTTACTGCTCACTGCAGCCTCGA  1 
+peak_110                 (   84) AGTGCAGTGGCGTGATGGCGTGATCTCGGCTCATTGCAACCTCTG  1 
+peak_109                 (   84) AGTGCAGTGGCGTGATGGCGTGATCTCGGCTCATTGCAACCTCTG  1 
+peak_449                 (   81) CAAGCTGGGGTACAGTGATGCAGTCATAGTTCACTGCATCTTCAA  1 
+peak_405                 (   98) CAGGCTGGCGTGCAGTGGTGCAGCCACTGCAGCCTCGACCTCTAA  1 
+peak_404                 (   98) CAGGCTGGCGTGCAGTGGTGCAGCCACTGCAGCCTCGACCTCTAA  1 
+//
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif CAGGCTGGAGTGCAGTGGYGCGATCTYGGCTCACTGCAASCTCYR MEME-1 position-specific scoring matrix
+--------------------------------------------------------------------------------
+log-odds matrix: alength= 4 w= 45 n= 72704 bayes= 12.4053 E= 1.2e-444 
+  -238    209  -1177   -180 
+   166  -1177   -182  -1177 
+  -180  -1177    209   -238 
+  -238  -1177    218   -338 
+ -1177    231  -1177  -1177 
+  -238  -1177  -1177    166 
+ -1177  -1177    231  -1177 
+ -1177     -1    188   -238 
+   152   -182   -123  -1177 
+  -338  -1177    227  -1177 
+ -1177   -182  -1177    166 
+  -238  -1177    222  -1177 
+ -1177    218  -1177   -180 
+   166  -1177   -182  -1177 
+   -58  -1177    199  -1177 
+ -1177   -182  -1177    166 
+  -238  -1177    222  -1177 
+  -338  -1177    227  -1177 
+ -1177    170  -1177     20 
+    -6   -123    164  -1177 
+  -338    157    -82    -21 
+   -21   -282    177   -338 
+   157  -1177    -82  -1177 
+ -1177   -123  -1177    162 
+ -1177    213   -282   -180 
+   -80   -282  -1177    142 
+ -1177    170  -1177     20 
+   -58  -1177    182   -180 
+  -106  -1177    209  -1177 
+ -1177    227  -1177   -338 
+  -238  -1177  -1177    166 
+ -1177    209   -123   -238 
+   157   -182   -182  -1177 
+ -1177    222  -1177   -238 
+ -1177   -182  -1177    166 
+  -338   -182    218  -1177 
+ -1177    218   -182   -338 
+   170   -282  -1177  -1177 
+   142   -182    -82   -338 
+ -1177    164     77   -338 
+ -1177    218  -1177   -180 
+ -1177    -23  -1177    147 
+ -1177    194  -1177    -38 
+  -138    127   -123      8 
+    32  -1177    135   -138 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif CAGGCTGGAGTGCAGTGGYGCGATCTYGGCTCACTGCAASCTCYR MEME-1 position-specific probability matrix
+--------------------------------------------------------------------------------
+letter-probability matrix: alength= 4 w= 45 nsites= 35 E= 1.2e-444 
+ 0.057143  0.857143  0.000000  0.085714 
+ 0.942857  0.000000  0.057143  0.000000 
+ 0.085714  0.000000  0.857143  0.057143 
+ 0.057143  0.000000  0.914286  0.028571 
+ 0.000000  1.000000  0.000000  0.000000 
+ 0.057143  0.000000  0.000000  0.942857 
+ 0.000000  0.000000  1.000000  0.000000 
+ 0.000000  0.200000  0.742857  0.057143 
+ 0.857143  0.057143  0.085714  0.000000 
+ 0.028571  0.000000  0.971429  0.000000 
+ 0.000000  0.057143  0.000000  0.942857 
+ 0.057143  0.000000  0.942857  0.000000 
+ 0.000000  0.914286  0.000000  0.085714 
+ 0.942857  0.000000  0.057143  0.000000 
+ 0.200000  0.000000  0.800000  0.000000 
+ 0.000000  0.057143  0.000000  0.942857 
+ 0.057143  0.000000  0.942857  0.000000 
+ 0.028571  0.000000  0.971429  0.000000 
+ 0.000000  0.657143  0.000000  0.342857 
+ 0.285714  0.085714  0.628571  0.000000 
+ 0.028571  0.600000  0.114286  0.257143 
+ 0.257143  0.028571  0.685714  0.028571 
+ 0.885714  0.000000  0.114286  0.000000 
+ 0.000000  0.085714  0.000000  0.914286 
+ 0.000000  0.885714  0.028571  0.085714 
+ 0.171429  0.028571  0.000000  0.800000 
+ 0.000000  0.657143  0.000000  0.342857 
+ 0.200000  0.000000  0.714286  0.085714 
+ 0.142857  0.000000  0.857143  0.000000 
+ 0.000000  0.971429  0.000000  0.028571 
+ 0.057143  0.000000  0.000000  0.942857 
+ 0.000000  0.857143  0.085714  0.057143 
+ 0.885714  0.057143  0.057143  0.000000 
+ 0.000000  0.942857  0.000000  0.057143 
+ 0.000000  0.057143  0.000000  0.942857 
+ 0.028571  0.057143  0.914286  0.000000 
+ 0.000000  0.914286  0.057143  0.028571 
+ 0.971429  0.028571  0.000000  0.000000 
+ 0.800000  0.057143  0.114286  0.028571 
+ 0.000000  0.628571  0.342857  0.028571 
+ 0.000000  0.914286  0.000000  0.085714 
+ 0.000000  0.171429  0.000000  0.828571 
+ 0.000000  0.771429  0.000000  0.228571 
+ 0.114286  0.485714  0.085714  0.314286 
+ 0.371429  0.000000  0.514286  0.114286 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif CAGGCTGGAGTGCAGTGGYGCGATCTYGGCTCACTGCAASCTCYR MEME-1 regular expression
+--------------------------------------------------------------------------------
+CAGGCTG[GC]AGTGCA[GA]TGG[CT][GA][CT][GA]ATCT[CT][GA]GCTCACTGCAA[CG]CT[CT][CT][GA]
+--------------------------------------------------------------------------------
+
+
+
+
+Time 548.22 secs.
+
+********************************************************************************
+
+
+********************************************************************************
+MOTIF CAGCTACTYGGGAGGCTGAGGYRGGAGRA MEME-2	width =  29  sites =  45  llr = 1269  E-value = 2.5e-299
+********************************************************************************
+--------------------------------------------------------------------------------
+	Motif CAGCTACTYGGGAGGCTGAGGYRGGAGRA MEME-2 Description
+--------------------------------------------------------------------------------
+Simplified        A  :91:27:::21:a1:::2a:::7118:7a
+pos.-specific     C  81:822825::1:::a2::::6:::::::
+probability       G  ::81:::1:788:9a::8:aa:389193:
+matrix            T  1::17:28511:::::8::::3:::1:::
+
+         bits    2.3                *   *         
+                 2.1               **   **        
+                 1.8             ****   **   * *  
+                 1.6   *         **** ****  ** * *
+Relative         1.4 ****  *    ***** ****  ** * *
+Entropy          1.2 ****  *   ************ ** * *
+(40.7 bits)      0.9 **** **  **************** ***
+                 0.7 *****************************
+                 0.5 *****************************
+                 0.2 *****************************
+                 0.0 -----------------------------
+
+Multilevel           CAGCTACTTGGGAGGCTGAGGCAGGAGAA
+consensus                 C  C            TG    G 
+sequence                                          
+                                                  
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif CAGCTACTYGGGAGGCTGAGGYRGGAGRA MEME-2 sites sorted by position p-value
+--------------------------------------------------------------------------------
+Sequence name            Strand  Start   P-value                        Site           
+-------------            ------  ----- ---------            -----------------------------
+peak_69                      -    153  5.16e-19 CCTGTAATCC CAGCTACTCGGGAGGCTGAGGCAGGAGAA TCACTTGAAG
+peak_416                     -    110  1.98e-18 CCTGTAGTCC CAGCTACTTGGGAGGCTGAGGCAGGAGAA TCTCTCGTAC
+peak_101                     +    122  5.24e-17 CCTGTAGTCT CAGCTACTTGGGAGGCTAAGGCAGGAGAA TCGCTTGAAC
+peak_366                     +     78  7.54e-17 CCTGTAGTCC CAACTACTTGGGAGGCTGAGGCAGGAGAA TGGCATGAAC
+peak_243                     -    111  7.54e-17 GCTGTAATCC TAGCTACTTGGGAGGCTGAGGCAGGAGAA CTGCTTGAAT
+peak_206                     +    158  7.54e-17 CCTGTAATCC CAACTACTTGGGAGGCTGAGGCAGGAGAA TCACTTGAAC
+peak_205                     +    158  7.54e-17 CCTGTAATCC CAACTACTTGGGAGGCTGAGGCAGGAGAA TCACTTGAAC
+peak_380                     -     74  1.29e-16 CCTGTAGTCC CAGTTACTTGGGAGGCTGAGGCAGGAGAA TCACTTGAAC
+peak_110                     -    147  1.87e-16 CGTGTAGTCC CAGCTACCTGGGAGGCTGAGGTGGGAGGA CTGCTTGAGC
+peak_109                     -    147  1.87e-16 CGTGTAGTCC CAGCTACCTGGGAGGCTGAGGTGGGAGGA CTGCTTGAGC
+peak_36                      -    137  2.62e-16 CCTGTAATCC CAGCTACTAGGGAGGCTGAGGCAGGAGAA TTGCTTGAAC
+peak_369                     +     64  4.12e-16 TAATCAATCC CAGCTACTTGGGAGGCTGCGGCAGGAGAA TCACTTGAAC
+peak_403                     +     16  7.92e-16 TCTGTAATCC CAGCTACTCGGGAGACTGAGGCAGGAGAA CTGCTTGAAT
+peak_277                     +     43  1.02e-15 CCTGTAATCC CAGCTACTCAGGAGGCTGAGGCAGAAGAA TCGCTTGAAC
+peak_253                     -    130  1.02e-15 CCTGTAACCC CAGCTACTCGGGAGGCTGAGGTGGAAGGA TCCCTTCAGC
+peak_18                      -     35  1.51e-15 CCTGCAATCG CAGGCACTCGGCAGGCTGAGGCAGGAGAA TCAGGCAGGG
+peak_405                     -    154  2.46e-15 GCCAGCTACT CAGCTACGCAGGAGGCTGAGGTGGGAGAA TTGATTGAAC
+peak_404                     -    154  2.46e-15 GCCAGCTACT CAGCTACGCAGGAGGCTGAGGTGGGAGAA TTGATTGAAC
+peak_377                     +     29  5.68e-15 CTTGTAGTCC TAGCTACTCGAGAGGCTGAGGTAGGAGGA TTACTTAAGC
+peak_376                     +     29  5.68e-15 CTTGTAGTCC TAGCTACTCGAGAGGCTGAGGTAGGAGGA TTACTTAAGC
+peak_375                     +     29  5.68e-15 CTTGTAGTCC TAGCTACTCGAGAGGCTGAGGTAGGAGGA TTACTTAAGC
+peak_370                     +    161  5.68e-15 CCTGTAATCC CAGCCACTCAGGAAGCTGAGGCAGGAGAA TCTCTTGAAC
+peak_411                     -     77  1.39e-14 CCTGTGGTCC CAGCTACTTGGGAGGCTGAGGCAAGATAA TTGATTGTGC
+peak_6                       +     85  1.39e-14 CCTGTAGTCC CAGCTACACAGGAGGCTGAGGTGGGAGAA TCACCTGAGC
+peak_475                     -    125  2.39e-14 CCTGTAATCC CAGCAGTTTGGGAGGCTGAGGCAGGAGGA CTGCTTGAAG
+peak_382                     -    141  1.19e-13 GCCTGTAGTC CCATTACTCAGGAGGCTGAGGCAGGAGAA TGGCATGAAC
+peak_381                     -    141  1.19e-13 GCCTGTAGTC CCATTACTCAGGAGGCTGAGGCAGGAGAA TGGCATGAAC
+peak_225                     +    119  2.53e-13 TCTGTAGTCC CAGCTACTTGGCAGGCTGAGGCAAGGAGA ATCGCTTGAA
+peak_65                      +     83  3.04e-13 CCTGTAATTC CAGCTACTTGGGAGGCTGAGACGAGAGAG TCGCTTGAAC
+peak_431                     +     19  5.18e-13 CCTGTGGTAC GAGCTACTCGGGAGGCTGAGGGGGAAGGA TCCCTTGAGC
+peak_315                     +     12  6.17e-13 CCCACGCTCC CAGCTACTCAAGAAGCTGAGGTGAGAGAA TCTATCCCCT
+peak_301                     -      2  1.03e-12 CCTGTAATCC CAGCACTTTGGGAGGCCAAGGTGGGTGAA T         
+peak_454                     -     33  1.32e-12 CCTGTAATCC CAGCACTTTGGGAGGCCAAGGTGGGTGGA TCACAAGGTC
+peak_348                     +      3  4.70e-12         GG CAGGCCCCCTTCAGGCTGAGGCAGGGGAA TCACTTGAAC
+peak_347                     +      3  4.70e-12         GG CAGGCCCCCTTCAGGCTGAGGCAGGGGAA TCACTTGAAC
+peak_346                     +      3  4.70e-12         GG CAGGCCCCCTTCAGGCTGAGGCAGGGGAA TCACTTGAAC
+peak_345                     +      3  4.70e-12         GG CAGGCCCCCTTCAGGCTGAGGCAGGGGAA TCACTTGAAC
+peak_328                     +    107  5.46e-12 GCCTATAATC CCAGCACTTCGGAGGCTGAGGCAGGTGGA TCACTTGAGG
+peak_195                     +    128  8.53e-12 CCTGTATTCT TAGCACTTTGGAAGGCCGAGGCAAGAGGA TCCCTTGAGC
+peak_137                     +    115  1.63e-11 CCTGTAATCA CAGCTACTGGGGAGGCTAAGGCACAAAAA TTGTTTGAAC
+peak_254                     -     40  1.87e-11 CCTGTAATCC CAGCACTTTGGGAGGCCAAGATGGGTGGA TCACCTGAGG
+peak_60                      -     29  2.46e-11 CCTGTAATCC CAGCACTTTGGGAAGCCAAGGTGGGCGAA TTGCTACGAA
+peak_359                     +     82  1.39e-10 GGGCGCCTGT AACCTAAGCTAGAGGCTGAGGCAGGAGAA TCGCTTGAAC
+peak_92                      -     67  1.48e-10 CCTGTAATAC TAGCACTCTGGAAGGCCAAGGTGGGTGGA TTACTTGAGG
+peak_23                      -     57  5.50e-10 CCTGTAATAT CAGTTTGTTGAGATGCCGAGGCGAGAGGA TCCCTTGCAG
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif CAGCTACTYGGGAGGCTGAGGYRGGAGRA MEME-2 block diagrams
+--------------------------------------------------------------------------------
+SEQUENCE NAME            POSITION P-VALUE  MOTIF DIAGRAM
+-------------            ----------------  -------------
+peak_69                           5.2e-19  152_[-2]_19
+peak_416                            2e-18  109_[-2]_62
+peak_101                          5.2e-17  121_[+2]_50
+peak_366                          7.5e-17  77_[+2]_94
+peak_243                          7.5e-17  110_[-2]_61
+peak_206                          7.5e-17  157_[+2]_14
+peak_205                          7.5e-17  157_[+2]_14
+peak_380                          1.3e-16  73_[-2]_98
+peak_110                          1.9e-16  146_[-2]_25
+peak_109                          1.9e-16  146_[-2]_25
+peak_36                           2.6e-16  136_[-2]_35
+peak_369                          4.1e-16  63_[+2]_108
+peak_403                          7.9e-16  15_[+2]_156
+peak_277                            1e-15  42_[+2]_129
+peak_253                            1e-15  129_[-2]_42
+peak_18                           1.5e-15  34_[-2]_137
+peak_405                          2.5e-15  153_[-2]_18
+peak_404                          2.5e-15  153_[-2]_18
+peak_377                          5.7e-15  28_[+2]_143
+peak_376                          5.7e-15  28_[+2]_143
+peak_375                          5.7e-15  28_[+2]_143
+peak_370                          5.7e-15  160_[+2]_11
+peak_411                          1.4e-14  76_[-2]_95
+peak_6                            1.4e-14  84_[+2]_87
+peak_475                          2.4e-14  124_[-2]_47
+peak_382                          1.2e-13  140_[-2]_31
+peak_381                          1.2e-13  140_[-2]_31
+peak_225                          2.5e-13  118_[+2]_53
+peak_65                             3e-13  82_[+2]_89
+peak_431                          5.2e-13  18_[+2]_153
+peak_315                          6.2e-13  11_[+2]_160
+peak_301                            1e-12  1_[-2]_170
+peak_454                          1.3e-12  32_[-2]_139
+peak_348                          4.7e-12  2_[+2]_169
+peak_347                          4.7e-12  2_[+2]_169
+peak_346                          4.7e-12  2_[+2]_169
+peak_345                          4.7e-12  2_[+2]_169
+peak_328                          5.5e-12  106_[+2]_65
+peak_195                          8.5e-12  127_[+2]_44
+peak_137                          1.6e-11  114_[+2]_57
+peak_254                          1.9e-11  39_[-2]_132
+peak_60                           2.5e-11  28_[-2]_143
+peak_359                          1.4e-10  81_[+2]_90
+peak_92                           1.5e-10  66_[-2]_105
+peak_23                           5.5e-10  56_[-2]_115
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif CAGCTACTYGGGAGGCTGAGGYRGGAGRA MEME-2 in BLOCKS format
+--------------------------------------------------------------------------------
+BL   MOTIF CAGCTACTYGGGAGGCTGAGGYRGGAGRA width=29 seqs=45
+peak_69                  (  153) CAGCTACTCGGGAGGCTGAGGCAGGAGAA  1 
+peak_416                 (  110) CAGCTACTTGGGAGGCTGAGGCAGGAGAA  1 
+peak_101                 (  122) CAGCTACTTGGGAGGCTAAGGCAGGAGAA  1 
+peak_366                 (   78) CAACTACTTGGGAGGCTGAGGCAGGAGAA  1 
+peak_243                 (  111) TAGCTACTTGGGAGGCTGAGGCAGGAGAA  1 
+peak_206                 (  158) CAACTACTTGGGAGGCTGAGGCAGGAGAA  1 
+peak_205                 (  158) CAACTACTTGGGAGGCTGAGGCAGGAGAA  1 
+peak_380                 (   74) CAGTTACTTGGGAGGCTGAGGCAGGAGAA  1 
+peak_110                 (  147) CAGCTACCTGGGAGGCTGAGGTGGGAGGA  1 
+peak_109                 (  147) CAGCTACCTGGGAGGCTGAGGTGGGAGGA  1 
+peak_36                  (  137) CAGCTACTAGGGAGGCTGAGGCAGGAGAA  1 
+peak_369                 (   64) CAGCTACTTGGGAGGCTGCGGCAGGAGAA  1 
+peak_403                 (   16) CAGCTACTCGGGAGACTGAGGCAGGAGAA  1 
+peak_277                 (   43) CAGCTACTCAGGAGGCTGAGGCAGAAGAA  1 
+peak_253                 (  130) CAGCTACTCGGGAGGCTGAGGTGGAAGGA  1 
+peak_18                  (   35) CAGGCACTCGGCAGGCTGAGGCAGGAGAA  1 
+peak_405                 (  154) CAGCTACGCAGGAGGCTGAGGTGGGAGAA  1 
+peak_404                 (  154) CAGCTACGCAGGAGGCTGAGGTGGGAGAA  1 
+peak_377                 (   29) TAGCTACTCGAGAGGCTGAGGTAGGAGGA  1 
+peak_376                 (   29) TAGCTACTCGAGAGGCTGAGGTAGGAGGA  1 
+peak_375                 (   29) TAGCTACTCGAGAGGCTGAGGTAGGAGGA  1 
+peak_370                 (  161) CAGCCACTCAGGAAGCTGAGGCAGGAGAA  1 
+peak_411                 (   77) CAGCTACTTGGGAGGCTGAGGCAAGATAA  1 
+peak_6                   (   85) CAGCTACACAGGAGGCTGAGGTGGGAGAA  1 
+peak_475                 (  125) CAGCAGTTTGGGAGGCTGAGGCAGGAGGA  1 
+peak_382                 (  141) CCATTACTCAGGAGGCTGAGGCAGGAGAA  1 
+peak_381                 (  141) CCATTACTCAGGAGGCTGAGGCAGGAGAA  1 
+peak_225                 (  119) CAGCTACTTGGCAGGCTGAGGCAAGGAGA  1 
+peak_65                  (   83) CAGCTACTTGGGAGGCTGAGACGAGAGAG  1 
+peak_431                 (   19) GAGCTACTCGGGAGGCTGAGGGGGAAGGA  1 
+peak_315                 (   12) CAGCTACTCAAGAAGCTGAGGTGAGAGAA  1 
+peak_301                 (    2) CAGCACTTTGGGAGGCCAAGGTGGGTGAA  1 
+peak_454                 (   33) CAGCACTTTGGGAGGCCAAGGTGGGTGGA  1 
+peak_348                 (    3) CAGGCCCCCTTCAGGCTGAGGCAGGGGAA  1 
+peak_347                 (    3) CAGGCCCCCTTCAGGCTGAGGCAGGGGAA  1 
+peak_346                 (    3) CAGGCCCCCTTCAGGCTGAGGCAGGGGAA  1 
+peak_345                 (    3) CAGGCCCCCTTCAGGCTGAGGCAGGGGAA  1 
+peak_328                 (  107) CCAGCACTTCGGAGGCTGAGGCAGGTGGA  1 
+peak_195                 (  128) TAGCACTTTGGAAGGCCGAGGCAAGAGGA  1 
+peak_137                 (  115) CAGCTACTGGGGAGGCTAAGGCACAAAAA  1 
+peak_254                 (   40) CAGCACTTTGGGAGGCCAAGATGGGTGGA  1 
+peak_60                  (   29) CAGCACTTTGGGAAGCCAAGGTGGGCGAA  1 
+peak_359                 (   82) AACCTAAGCTAGAGGCTGAGGCAGGAGAA  1 
+peak_92                  (   67) TAGCACTCTGGAAGGCCAAGGTGGGTGGA  1 
+peak_23                  (   57) CAGTTTGTTGAGATGCCGAGGCGAGAGGA  1 
+//
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif CAGCTACTYGGGAGGCTGAGGYRGGAGRA MEME-2 position-specific scoring matrix
+--------------------------------------------------------------------------------
+log-odds matrix: alength= 4 w= 29 n= 80448 bayes= 7.65856 E= 2.5e-299 
+  -374    203   -318   -116 
+   165   -160  -1214  -1214 
+  -116   -318    207  -1214 
+ -1214    195    -60   -175 
+   -94    -37  -1214    121 
+   130     14   -318   -374 
+  -374    199   -318    -94 
+  -374    -37   -160    134 
+  -374    121   -318     71 
+   -75   -318    177   -142 
+  -116  -1214    195   -175 
+  -274    -60    203  -1214 
+   174  -1214  -1214  -1214 
+  -216  -1214    218   -374 
+  -374  -1214    228  -1214 
+ -1214    231  -1214  -1214 
+ -1214    -37  -1214    150 
+   -94  -1214    207  -1214 
+   171   -318  -1214  -1214 
+ -1214  -1214    231  -1214 
+  -274  -1214    224  -1214 
+ -1214    168   -318     16 
+   116  -1214     72  -1214 
+  -116   -318    207  -1214 
+  -175  -1214    218  -1214 
+   134   -318    -86   -142 
+  -274  -1214    221   -374 
+   116  -1214     72  -1214 
+   171  -1214   -318  -1214 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif CAGCTACTYGGGAGGCTGAGGYRGGAGRA MEME-2 position-specific probability matrix
+--------------------------------------------------------------------------------
+letter-probability matrix: alength= 4 w= 29 nsites= 45 E= 2.5e-299 
+ 0.022222  0.822222  0.022222  0.133333 
+ 0.933333  0.066667  0.000000  0.000000 
+ 0.133333  0.022222  0.844444  0.000000 
+ 0.000000  0.777778  0.133333  0.088889 
+ 0.155556  0.155556  0.000000  0.688889 
+ 0.733333  0.222222  0.022222  0.022222 
+ 0.022222  0.800000  0.022222  0.155556 
+ 0.022222  0.155556  0.066667  0.755556 
+ 0.022222  0.466667  0.022222  0.488889 
+ 0.177778  0.022222  0.688889  0.111111 
+ 0.133333  0.000000  0.777778  0.088889 
+ 0.044444  0.133333  0.822222  0.000000 
+ 1.000000  0.000000  0.000000  0.000000 
+ 0.066667  0.000000  0.911111  0.022222 
+ 0.022222  0.000000  0.977778  0.000000 
+ 0.000000  1.000000  0.000000  0.000000 
+ 0.000000  0.155556  0.000000  0.844444 
+ 0.155556  0.000000  0.844444  0.000000 
+ 0.977778  0.022222  0.000000  0.000000 
+ 0.000000  0.000000  1.000000  0.000000 
+ 0.044444  0.000000  0.955556  0.000000 
+ 0.000000  0.644444  0.022222  0.333333 
+ 0.666667  0.000000  0.333333  0.000000 
+ 0.133333  0.022222  0.844444  0.000000 
+ 0.088889  0.000000  0.911111  0.000000 
+ 0.755556  0.022222  0.111111  0.111111 
+ 0.044444  0.000000  0.933333  0.022222 
+ 0.666667  0.000000  0.333333  0.000000 
+ 0.977778  0.000000  0.022222  0.000000 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif CAGCTACTYGGGAGGCTGAGGYRGGAGRA MEME-2 regular expression
+--------------------------------------------------------------------------------
+CAGCT[AC]CT[TC]GGGAGGCTGAGG[CT][AG]GGAG[AG]A
+--------------------------------------------------------------------------------
+
+
+
+
+Time 1082.60 secs.
+
+********************************************************************************
+
+
+********************************************************************************
+MOTIF GGYRACAGAGYRAGACYCYGTCTCAAAA MEME-3	width =  28  sites =  51  llr = 1167  E-value = 4.5e-236
+********************************************************************************
+--------------------------------------------------------------------------------
+	Motif GGYRACAGAGYRAGACYCYGTCTCAAAA MEME-3 Description
+--------------------------------------------------------------------------------
+Simplified        A  111581918:23a3a1:::3::::7a78
+pos.-specific     C  :25:18::::5::::8494::a:9::2:
+probability       G  86151:161a:6:6:::::7::::::1:
+matrix            T  114:::12::3::1:1615:9:a13::1
+
+         bits    2.3          *                  
+                 2.1          *           *      
+                 1.8          *  *    *   * *    
+                 1.6          *  *    *   *** *  
+Relative         1.4      *   *  * ** * ***** *  
+Entropy          1.2 *    **  * ** ** * ***** *  
+(33.0 bits)      0.9 *   *** ** ***** * ***** * *
+                 0.7 ** ******* *****************
+                 0.5 ****************************
+                 0.2 ****************************
+                 0.0 ----------------------------
+
+Multilevel           GGCGACAGAGCGAGACTCTGTCTCAAAA
+consensus              TA   T  TA A  C CA    T C 
+sequence                                         
+                                                 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif GGYRACAGAGYRAGACYCYGTCTCAAAA MEME-3 sites sorted by position p-value
+--------------------------------------------------------------------------------
+Sequence name            Strand  Start   P-value                        Site          
+-------------            ------  ----- ---------            ----------------------------
+peak_91                      +     19  4.41e-16 TACCAGCTTG GGCAACAGAGTGAGACCCTGTCTCAAAA AATTTATTGG
+peak_110                     -     48  5.25e-16 CTCCAGCCTA GGTGACAGAGTGAGACCCTGTCTCAAAA AAATAATAAT
+peak_109                     -     48  5.25e-16 CTCCAGCCTA GGTGACAGAGTGAGACCCTGTCTCAAAA AAATAATAAT
+peak_431                     +    112  8.05e-16 CTGCAGCCTG GGCAACAGAGCAAGACCCTGTCTCAAAA AACAAACAAA
+peak_366                     +    170  2.02e-15 CTCCAGCCTG GGCAACAGAGCAAGACTCCGTCTCTAAA TAA       
+peak_274                     -    116  6.66e-15 CTCCAGCCTG GGCGACAAAGCGAGACTCCATCTCAAAA AAAAAAAAAA
+peak_273                     -    116  6.66e-15 CTCCAGCCTG GGCGACAAAGCGAGACTCCATCTCAAAA AAAAAAAAAA
+peak_272                     -    116  6.66e-15 CTCCAGCCTG GGCGACAAAGCGAGACTCCATCTCAAAA AAAAAAAAAA
+peak_161                     +     81  9.39e-15 CTCCAGCCTG GGTGACAGAGGGAGACTCTGTCTCAAAA AAACAAACAA
+peak_160                     +     81  9.39e-15 CTCCAGCCTG GGTGACAGAGGGAGACTCTGTCTCAAAA AAACAAACAA
+peak_116                     +     81  2.34e-14 CTGCAGCCTG GGCAACAGAGCCAGACTCCGTCTCAAAA TATATAAATA
+peak_146                     -    120  6.53e-14 CTCCAGCCTG GGAGACAGAGTGAGACTCCATCTCAAAA GAAAAAAAAA
+peak_403                     +    108  1.12e-13 CTCCAGCCTG GGCAACAGAGTGAGGCTCTGTCTCAAAA CAAAACAAAA
+peak_36                      -     46  1.67e-13 CTCCAGCCTA GGCGAGAGAGTGAAACTCTGTCTCAAAA AAGAAAAAAA
+peak_225                     +     47  2.82e-13 CTCCAGTCTG GGTGACAGAGTGAGAGTCCATCTCAAAA AAAAAAAAAA
+peak_382                     -     50  3.20e-13 CTCCAGCCTG GGTGACAGAGCAAGACTCCATCTTAAAA ATAAATAAAT
+peak_381                     -     50  3.20e-13 CTCCAGCCTG GGTGACAGAGCAAGACTCCATCTTAAAA ATAAATAAAT
+peak_411                     -     23  2.67e-12 CTCCAGCCTG CGTGACAGAGCAAGACTCCATCTCTAAA AATATAAAAT
+peak_108                     +    168  3.32e-12 CTCCAGCCTG GGCAACTGAGTGAGACTCTGTCTCAATA AATAA     
+peak_348                     +     96  4.13e-12 CTGCAGCCTG GATGACAGAGAAATACTCTGTCTCAAAA CAAAAGAAAA
+peak_347                     +     96  4.13e-12 CTGCAGCCTG GATGACAGAGAAATACTCTGTCTCAAAA CAAAAGAAAA
+peak_346                     +     96  4.13e-12 CTGCAGCCTG GATGACAGAGAAATACTCTGTCTCAAAA CAAAAGAAAA
+peak_345                     +     96  4.13e-12 CTGCAGCCTG GATGACAGAGAAATACTCTGTCTCAAAA CAAAAGAAAA
+peak_392                     -    107  5.12e-12 CTGCAGCCTG GGTGGCAGAGTGAGATTCCATCTCTAAA TAAATAAATA
+peak_412                     -    168  7.78e-12      GCCTG GGCCATAGAGCAAGACTCTGTCTCAAAA AAACTCCAAA
+peak_449                     -     53  2.57e-11 CCCCAGCTTG AGTAACAAAGAGAGATCCTGTCTCAAAA AAAAAAAAAA
+peak_117                     -    139  2.84e-11 TCCCACCTGG GCAGCAAGAGTGAAACTCTGTCTCAAAA AAAAAAAAAA
+peak_243                     -     19  3.43e-11 TCCAGACTAG GCAACAAGAGTGAAACTCCGTCTCAAAA AAAACAAAAA
+peak_277                     +    135  3.77e-11 CTCCAGCTTG GGTGACAGTGCGAGACTCAGACTCAAAA AAAAAAAGTA
+peak_377                     +     97  4.54e-11 GTGAACTATG TGTGGCAGAGCAAGAATCTGTCTCTAAA AGAAAATAAA
+peak_376                     +     97  4.54e-11 GTGAACTATG TGTGGCAGAGCAAGAATCTGTCTCTAAA AGAAAATAAA
+peak_375                     +     97  4.54e-11 GTGAACTATG TGTGGCAGAGCAAGAATCTGTCTCTAAA AGAAAATAAA
+peak_69                      -     61  5.98e-11 TCCAGCCTGA GTGACAAGAGTGAAACTCCGTCTCAAAA AAAAAAAAAG
+peak_359                     +     13  1.02e-10 GACCAGCCTG GCCAACATGGTGAAACCCCATCTCTACT AAAAATATAA
+peak_328                     +     25  2.22e-10 GACCAGCCTG GGCAACTTAGTAAGACACCATCTCTACA AAAAAAATTT
+peak_18                      -    112  2.85e-10 GACCAGCCCG GCCAACACAGCAAAACCCCGTCTCCACC AAAAAAATAC
+peak_405                     -     70  3.10e-10 CGCCAGCCTG GGTGACAAAGAGAGACCTTGTATCAAGA AAAAAAAAAA
+peak_404                     -     70  3.10e-10 CGCCAGCCTG GGTGACAAAGAGAGACCTTGTATCAAGA AAAAAAAAAA
+peak_333                     +    166  3.10e-10 GACCAGCCTG GGCAACATGGCGAAACCCTGTCCTAAGA AAAATAC   
+peak_228                     +     89  3.65e-10 CTCCAGCCTG GGCTACAGAGCAAGATACAGTCTCAAAA GAAAAAGAAG
+peak_369                     +    157  3.96e-10 TCCAGCCTGG GGGACAAGAGCGAGACTTCGTCTCATAA ATAAATAAAT
+peak_370                     +     85  4.29e-10 GACCAGCCTG ACCAACATGGAGAAACCCCGTCTCTACT AAAAATACAA
+peak_101                     +     49  5.45e-10 GACCAGCCTG ACCAACATGGAGAAACCCTGTCTCTACT AAAAATGCAA
+peak_65                      +      9  8.69e-10   CCAGCCTG GCCAACATGGTGAAACCCTGCCTCTACC AAAAATACAA
+peak_475                     -     62  9.38e-10 CAGCCTGAGC AACAACATAGCAAGATCTCGTCTCAACA AAAAGTTTTA
+peak_206                     +     86  1.01e-09 GACTGGCCTG GTCAACGTGGCGAAACCCCATCTCTACT AAAGATACAA
+peak_205                     +     86  1.01e-09 GACTGGCCTG GTCAACGTGGCGAAACCCCATCTCTACT AAAGATACAA
+peak_92                      -    143  1.27e-09 GACCAGCCTG GCCAACATAGTGAAACCCTGCCTTTACT AAAAATACAA
+peak_380                     -    151  1.31e-08 GACCAACCTG GCCAACTTAGCGAAACCCGGTCCCCACT AAAAATACAA
+peak_416                     -     18  2.43e-08 TCCAGCCTGG ACGACGGATGCGAGACTCCATCTCAAAA AAAAAAAAAA
+peak_454                     -    139  7.64e-08 CACTGCAGTG TTGGCAACAGCGAGTGCCTGTCTCAAAA AATAAATAAA
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif GGYRACAGAGYRAGACYCYGTCTCAAAA MEME-3 block diagrams
+--------------------------------------------------------------------------------
+SEQUENCE NAME            POSITION P-VALUE  MOTIF DIAGRAM
+-------------            ----------------  -------------
+peak_91                           4.4e-16  18_[+3]_154
+peak_110                          5.3e-16  47_[-3]_125
+peak_109                          5.3e-16  47_[-3]_125
+peak_431                            8e-16  111_[+3]_61
+peak_366                            2e-15  169_[+3]_3
+peak_274                          6.7e-15  115_[-3]_57
+peak_273                          6.7e-15  115_[-3]_57
+peak_272                          6.7e-15  115_[-3]_57
+peak_161                          9.4e-15  80_[+3]_92
+peak_160                          9.4e-15  80_[+3]_92
+peak_116                          2.3e-14  80_[+3]_92
+peak_146                          6.5e-14  119_[-3]_53
+peak_403                          1.1e-13  107_[+3]_65
+peak_36                           1.7e-13  45_[-3]_127
+peak_225                          2.8e-13  46_[+3]_126
+peak_382                          3.2e-13  49_[-3]_123
+peak_381                          3.2e-13  49_[-3]_123
+peak_411                          2.7e-12  22_[-3]_150
+peak_108                          3.3e-12  167_[+3]_5
+peak_348                          4.1e-12  95_[+3]_77
+peak_347                          4.1e-12  95_[+3]_77
+peak_346                          4.1e-12  95_[+3]_77
+peak_345                          4.1e-12  95_[+3]_77
+peak_392                          5.1e-12  106_[-3]_66
+peak_412                          7.8e-12  167_[-3]_5
+peak_449                          2.6e-11  52_[-3]_120
+peak_117                          2.8e-11  138_[-3]_34
+peak_243                          3.4e-11  18_[-3]_154
+peak_277                          3.8e-11  134_[+3]_38
+peak_377                          4.5e-11  96_[+3]_76
+peak_376                          4.5e-11  96_[+3]_76
+peak_375                          4.5e-11  96_[+3]_76
+peak_69                             6e-11  60_[-3]_112
+peak_359                            1e-10  12_[+3]_160
+peak_328                          2.2e-10  24_[+3]_148
+peak_18                           2.9e-10  111_[-3]_61
+peak_405                          3.1e-10  69_[-3]_103
+peak_404                          3.1e-10  69_[-3]_103
+peak_333                          3.1e-10  165_[+3]_7
+peak_228                          3.6e-10  88_[+3]_84
+peak_369                            4e-10  156_[+3]_16
+peak_370                          4.3e-10  84_[+3]_88
+peak_101                          5.4e-10  48_[+3]_124
+peak_65                           8.7e-10  8_[+3]_164
+peak_475                          9.4e-10  61_[-3]_111
+peak_206                            1e-09  85_[+3]_87
+peak_205                            1e-09  85_[+3]_87
+peak_92                           1.3e-09  142_[-3]_30
+peak_380                          1.3e-08  150_[-3]_22
+peak_416                          2.4e-08  17_[-3]_155
+peak_454                          7.6e-08  138_[-3]_34
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif GGYRACAGAGYRAGACYCYGTCTCAAAA MEME-3 in BLOCKS format
+--------------------------------------------------------------------------------
+BL   MOTIF GGYRACAGAGYRAGACYCYGTCTCAAAA width=28 seqs=51
+peak_91                  (   19) GGCAACAGAGTGAGACCCTGTCTCAAAA  1 
+peak_110                 (   48) GGTGACAGAGTGAGACCCTGTCTCAAAA  1 
+peak_109                 (   48) GGTGACAGAGTGAGACCCTGTCTCAAAA  1 
+peak_431                 (  112) GGCAACAGAGCAAGACCCTGTCTCAAAA  1 
+peak_366                 (  170) GGCAACAGAGCAAGACTCCGTCTCTAAA  1 
+peak_274                 (  116) GGCGACAAAGCGAGACTCCATCTCAAAA  1 
+peak_273                 (  116) GGCGACAAAGCGAGACTCCATCTCAAAA  1 
+peak_272                 (  116) GGCGACAAAGCGAGACTCCATCTCAAAA  1 
+peak_161                 (   81) GGTGACAGAGGGAGACTCTGTCTCAAAA  1 
+peak_160                 (   81) GGTGACAGAGGGAGACTCTGTCTCAAAA  1 
+peak_116                 (   81) GGCAACAGAGCCAGACTCCGTCTCAAAA  1 
+peak_146                 (  120) GGAGACAGAGTGAGACTCCATCTCAAAA  1 
+peak_403                 (  108) GGCAACAGAGTGAGGCTCTGTCTCAAAA  1 
+peak_36                  (   46) GGCGAGAGAGTGAAACTCTGTCTCAAAA  1 
+peak_225                 (   47) GGTGACAGAGTGAGAGTCCATCTCAAAA  1 
+peak_382                 (   50) GGTGACAGAGCAAGACTCCATCTTAAAA  1 
+peak_381                 (   50) GGTGACAGAGCAAGACTCCATCTTAAAA  1 
+peak_411                 (   23) CGTGACAGAGCAAGACTCCATCTCTAAA  1 
+peak_108                 (  168) GGCAACTGAGTGAGACTCTGTCTCAATA  1 
+peak_348                 (   96) GATGACAGAGAAATACTCTGTCTCAAAA  1 
+peak_347                 (   96) GATGACAGAGAAATACTCTGTCTCAAAA  1 
+peak_346                 (   96) GATGACAGAGAAATACTCTGTCTCAAAA  1 
+peak_345                 (   96) GATGACAGAGAAATACTCTGTCTCAAAA  1 
+peak_392                 (  107) GGTGGCAGAGTGAGATTCCATCTCTAAA  1 
+peak_412                 (  168) GGCCATAGAGCAAGACTCTGTCTCAAAA  1 
+peak_449                 (   53) AGTAACAAAGAGAGATCCTGTCTCAAAA  1 
+peak_117                 (  139) GCAGCAAGAGTGAAACTCTGTCTCAAAA  1 
+peak_243                 (   19) GCAACAAGAGTGAAACTCCGTCTCAAAA  1 
+peak_277                 (  135) GGTGACAGTGCGAGACTCAGACTCAAAA  1 
+peak_377                 (   97) TGTGGCAGAGCAAGAATCTGTCTCTAAA  1 
+peak_376                 (   97) TGTGGCAGAGCAAGAATCTGTCTCTAAA  1 
+peak_375                 (   97) TGTGGCAGAGCAAGAATCTGTCTCTAAA  1 
+peak_69                  (   61) GTGACAAGAGTGAAACTCCGTCTCAAAA  1 
+peak_359                 (   13) GCCAACATGGTGAAACCCCATCTCTACT  1 
+peak_328                 (   25) GGCAACTTAGTAAGACACCATCTCTACA  1 
+peak_18                  (  112) GCCAACACAGCAAAACCCCGTCTCCACC  1 
+peak_405                 (   70) GGTGACAAAGAGAGACCTTGTATCAAGA  1 
+peak_404                 (   70) GGTGACAAAGAGAGACCTTGTATCAAGA  1 
+peak_333                 (  166) GGCAACATGGCGAAACCCTGTCCTAAGA  1 
+peak_228                 (   89) GGCTACAGAGCAAGATACAGTCTCAAAA  1 
+peak_369                 (  157) GGGACAAGAGCGAGACTTCGTCTCATAA  1 
+peak_370                 (   85) ACCAACATGGAGAAACCCCGTCTCTACT  1 
+peak_101                 (   49) ACCAACATGGAGAAACCCTGTCTCTACT  1 
+peak_65                  (    9) GCCAACATGGTGAAACCCTGCCTCTACC  1 
+peak_475                 (   62) AACAACATAGCAAGATCTCGTCTCAACA  1 
+peak_206                 (   86) GTCAACGTGGCGAAACCCCATCTCTACT  1 
+peak_205                 (   86) GTCAACGTGGCGAAACCCCATCTCTACT  1 
+peak_92                  (  143) GCCAACATAGTGAAACCCTGCCTTTACT  1 
+peak_380                 (  151) GCCAACTTAGCGAAACCCGGTCCCCACT  1 
+peak_416                 (   18) ACGACGGATGCGAGACTCCATCTCAAAA  1 
+peak_454                 (  139) TTGGCAACAGCGAGTGCCTGTCTCAAAA  1 
+//
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif GGYRACAGAGYRAGACYCYGTCTCAAAA MEME-3 position-specific scoring matrix
+--------------------------------------------------------------------------------
+log-odds matrix: alength= 4 w= 28 n= 80932 bayes= 11.7805 E= 4.5e-236 
+  -160   -336    199   -193 
+  -160     -4    164   -193 
+  -234    122   -136     39 
+    60   -336    134   -392 
+   143    -78   -136  -1232 
+  -160    206   -236   -392 
+   156  -1232   -178   -234 
+  -112   -236    159    -47 
+   146  -1232    -56   -293 
+ -1232  -1232    231  -1232 
+   -76    122   -236      7 
+    16   -336    168  -1232 
+   174  -1232  -1232  -1232 
+   -12  -1232    168   -193 
+   169  -1232   -336   -392 
+  -234    203   -236   -193 
+  -293     89  -1232     98 
+ -1232    219  -1232   -193 
+  -293    110   -336     77 
+   -12  -1232    185  -1232 
+  -392   -236  -1232    166 
+  -293    225  -1232  -1232 
+ -1232   -236  -1232    169 
+ -1232    219  -1232   -193 
+   120   -236  -1232    -12 
+   172  -1232  -1232   -392 
+   124     10   -178   -392 
+   146   -236  -1232   -112 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif GGYRACAGAGYRAGACYCYGTCTCAAAA MEME-3 position-specific probability matrix
+--------------------------------------------------------------------------------
+letter-probability matrix: alength= 4 w= 28 nsites= 51 E= 4.5e-236 
+ 0.098039  0.019608  0.803922  0.078431 
+ 0.098039  0.196078  0.627451  0.078431 
+ 0.058824  0.470588  0.078431  0.392157 
+ 0.450980  0.019608  0.509804  0.019608 
+ 0.803922  0.117647  0.078431  0.000000 
+ 0.098039  0.843137  0.039216  0.019608 
+ 0.882353  0.000000  0.058824  0.058824 
+ 0.137255  0.039216  0.607843  0.215686 
+ 0.823529  0.000000  0.137255  0.039216 
+ 0.000000  0.000000  1.000000  0.000000 
+ 0.176471  0.470588  0.039216  0.313725 
+ 0.333333  0.019608  0.647059  0.000000 
+ 1.000000  0.000000  0.000000  0.000000 
+ 0.274510  0.000000  0.647059  0.078431 
+ 0.960784  0.000000  0.019608  0.019608 
+ 0.058824  0.823529  0.039216  0.078431 
+ 0.039216  0.372549  0.000000  0.588235 
+ 0.000000  0.921569  0.000000  0.078431 
+ 0.039216  0.431373  0.019608  0.509804 
+ 0.274510  0.000000  0.725490  0.000000 
+ 0.019608  0.039216  0.000000  0.941176 
+ 0.039216  0.960784  0.000000  0.000000 
+ 0.000000  0.039216  0.000000  0.960784 
+ 0.000000  0.921569  0.000000  0.078431 
+ 0.686275  0.039216  0.000000  0.274510 
+ 0.980392  0.000000  0.000000  0.019608 
+ 0.705882  0.215686  0.058824  0.019608 
+ 0.823529  0.039216  0.000000  0.137255 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif GGYRACAGAGYRAGACYCYGTCTCAAAA MEME-3 regular expression
+--------------------------------------------------------------------------------
+GG[CT][GA]ACA[GT]AG[CT][GA]A[GA]AC[TC]C[TC][GA]TCTC[AT]A[AC]A
+--------------------------------------------------------------------------------
+
+
+
+
+Time 1599.51 secs.
+
+********************************************************************************
+
+
+********************************************************************************
+SUMMARY OF MOTIFS
+********************************************************************************
+
+--------------------------------------------------------------------------------
+	Combined block diagrams: non-overlapping sites with p-value < 0.0001
+--------------------------------------------------------------------------------
+SEQUENCE NAME            COMBINED P-VALUE  MOTIF DIAGRAM
+-------------            ----------------  -------------
+peak_1                           7.33e-02  60_[-3(3.95e-05)]_112
+peak_2                           9.33e-01  200
+peak_3                           9.33e-01  200
+peak_4                           1.27e-01  200
+peak_5                           1.08e-02  75_[+1(2.79e-05)]_80
+peak_6                           9.59e-25  84_[+2(1.39e-14)]_18_[-1(9.96e-19)]_\
+    24
+peak_7                           7.55e-01  200
+peak_8                           7.30e-01  200
+peak_9                           7.30e-01  200
+peak_10                          4.18e-02  74_[+3(8.40e-05)]_98
+peak_11                          4.18e-02  74_[+3(8.40e-05)]_98
+peak_12                          2.27e-01  200
+peak_13                          2.27e-01  200
+peak_14                          8.77e-01  200
+peak_15                          3.97e-01  200
+peak_16                          7.94e-01  200
+peak_17                          1.40e-01  200
+peak_18                          2.66e-18  34_[-2(1.51e-15)]_48_[-3(2.85e-10)]_\
+    32_[-2(1.57e-08)]
+peak_19                          6.97e-01  200
+peak_20                          6.97e-01  200
+peak_21                          2.87e-01  200
+peak_22                          6.59e-01  200
+peak_23                          9.22e-06  56_[-2(5.50e-10)]_115
+peak_24                          1.37e-01  200
+peak_25                          3.88e-01  200
+peak_26                          7.33e-01  200
+peak_27                          6.05e-02  200
+peak_28                          5.84e-01  200
+peak_29                          9.02e-01  200
+peak_30                          2.49e-01  200
+peak_31                          2.49e-01  200
+peak_32                          2.49e-01  200
+peak_33                          2.41e-01  200
+peak_34                          4.82e-01  200
+peak_35                          1.67e-01  200
+peak_36                          1.68e-35  45_[-3(1.67e-13)]_[+1(2.59e-18)]_18_\
+    [-2(2.62e-16)]_35
+peak_37                          5.60e-01  200
+peak_38                          2.04e-01  200
+peak_39                          2.04e-01  200
+peak_40                          3.52e-01  200
+peak_41                          3.30e-01  200
+peak_42                          3.30e-01  200
+peak_43                          3.30e-01  200
+peak_44                          3.30e-01  200
+peak_45                          2.62e-01  200
+peak_46                          7.77e-01  200
+peak_47                          3.70e-01  200
+peak_48                          3.70e-01  200
+peak_49                          4.00e-01  200
+peak_50                          8.45e-03  111_[-3(8.40e-05)]_61
+peak_51                          4.30e-01  200
+peak_52                          2.48e-01  200
+peak_53                          5.73e-01  200
+peak_54                          6.04e-01  200
+peak_55                          6.04e-01  200
+peak_56                          3.28e-01  200
+peak_57                          1.08e-02  25_[+2(2.70e-05)]_146
+peak_58                          8.71e-01  200
+peak_59                          2.65e-03  55_[-1(2.01e-05)]_100
+peak_60                          3.63e-07  28_[-2(2.46e-11)]_143
+peak_61                          9.63e-01  200
+peak_62                          6.29e-01  200
+peak_63                          6.29e-01  200
+peak_64                          8.03e-02  168_[+3(7.69e-05)]_4
+peak_65                          2.12e-31  8_[+3(8.69e-10)]_46_[+2(3.04e-13)]_\
+    16_[-1(6.80e-21)]_28
+peak_66                          5.00e-01  200
+peak_67                          7.82e-01  200
+peak_68                          2.40e-01  200
+peak_69                          8.87e-43  60_[-3(5.98e-11)]_1_[+1(1.37e-25)]_\
+    18_[-2(5.16e-19)]_19
+peak_70                          8.35e-01  200
+peak_71                          7.12e-01  200
+peak_72                          3.19e-01  200
+peak_73                          3.53e-01  200
+peak_74                          3.53e-01  200
+peak_75                          3.53e-01  200
+peak_76                          4.52e-01  200
+peak_77                          1.00e+00  200
+peak_78                          1.00e+00  200
+peak_79                          8.05e-01  200
+peak_80                          8.05e-01  200
+peak_81                          4.62e-01  200
+peak_82                          4.62e-01  200
+peak_83                          6.55e-01  200
+peak_84                          6.55e-01  200
+peak_85                          8.71e-01  200
+peak_86                          8.71e-01  200
+peak_87                          2.65e-01  200
+peak_88                          2.65e-01  200
+peak_89                          2.65e-01  200
+peak_90                          5.48e-02  200
+peak_91                          3.91e-11  18_[+3(4.41e-16)]_154
+peak_92                          3.25e-12  6_[-3(8.37e-09)]_32_[-2(1.48e-10)]_\
+    47_[-3(1.27e-09)]_30
+peak_93                          3.23e-01  200
+peak_94                          7.55e-01  200
+peak_95                          6.22e-01  200
+peak_96                          3.46e-02  13_[+3(1.05e-05)]_159
+peak_97                          1.98e-01  200
+peak_98                          1.98e-01  200
+peak_99                          6.32e-01  200
+peak_100                         1.82e-01  200
+peak_101                         1.24e-18  48_[+3(5.45e-10)]_45_[+2(5.24e-17)]_\
+    50
+peak_102                         2.09e-01  200
+peak_103                         2.09e-01  200
+peak_104                         1.63e-01  200
+peak_105                         4.34e-01  200
+peak_106                         8.46e-01  200
+peak_107                         9.77e-01  200
+peak_108                         4.25e-31  1_[+3(5.48e-08)]_46_[+2(3.92e-06)]_\
+    18_[-1(2.82e-25)]_[+3(3.32e-12)]_5
+peak_109                         1.56e-35  47_[-3(5.25e-16)]_8_[+1(1.07e-15)]_\
+    18_[-2(1.87e-16)]_25
+peak_110                         1.56e-35  47_[-3(5.25e-16)]_8_[+1(1.07e-15)]_\
+    18_[-2(1.87e-16)]_25
+peak_111                         4.56e-01  200
+peak_112                         6.52e-01  200
+peak_113                         1.12e-01  200
+peak_114                         9.91e-01  200
+peak_115                         2.23e-01  200
+peak_116                         2.41e-28  35_[-1(1.11e-22)]_[+3(2.34e-14)]_92
+peak_117                         8.34e-07  138_[-3(2.84e-11)]_34
+peak_118                         3.56e-01  200
+peak_119                         3.27e-01  200
+peak_120                         1.00e+00  200
+peak_121                         1.00e+00  200
+peak_122                         7.24e-01  200
+peak_123                         4.83e-01  200
+peak_124                         8.15e-01  200
+peak_125                         8.15e-01  200
+peak_126                         3.22e-01  200
+peak_127                         3.22e-01  200
+peak_128                         3.22e-01  200
+peak_129                         3.22e-01  200
+peak_130                         9.44e-01  200
+peak_131                         1.70e-01  200
+peak_132                         1.23e-01  200
+peak_133                         3.73e-01  200
+peak_134                         3.06e-01  200
+peak_135                         3.12e-02  147_[+2(5.39e-05)]_24
+peak_136                         1.40e-01  200
+peak_137                         1.28e-09  29_[+3(4.88e-06)]_57_[+2(1.63e-11)]_\
+    57
+peak_138                         2.15e-01  200
+peak_139                         2.15e-01  200
+peak_140                         4.41e-01  200
+peak_141                         4.41e-01  200
+peak_142                         4.41e-01  200
+peak_143                         3.89e-02  114_[-2(8.26e-05)]_57
+peak_144                         3.89e-02  114_[-2(8.26e-05)]_57
+peak_145                         1.47e-01  162_[-3(8.65e-05)]_10
+peak_146                         3.39e-31  119_[-3(6.53e-14)]_[+1(3.99e-26)]_8
+peak_147                         1.61e-01  200
+peak_148                         9.24e-01  200
+peak_149                         4.11e-01  200
+peak_150                         2.63e-01  200
+peak_151                         2.63e-01  200
+peak_152                         3.50e-02  69_[-3(4.47e-05)]_103
+peak_153                         3.50e-02  69_[-3(4.47e-05)]_103
+peak_154                         1.43e-01  200
+peak_155                         7.50e-01  200
+peak_156                         4.09e-01  200
+peak_157                         1.42e-01  200
+peak_158                         1.42e-01  200
+peak_159                         9.70e-01  200
+peak_160                         5.74e-35  35_[-1(3.18e-28)]_[+3(9.39e-15)]_92
+peak_161                         5.74e-35  35_[-1(3.18e-28)]_[+3(9.39e-15)]_92
+peak_162                         7.67e-01  200
+peak_163                         2.66e-02  200
+peak_164                         2.66e-02  200
+peak_165                         2.45e-01  200
+peak_166                         2.33e-01  200
+peak_167                         4.54e-01  200
+peak_168                         4.54e-01  200
+peak_169                         3.73e-01  200
+peak_170                         2.17e-01  200
+peak_171                         4.08e-02  155_[-1(6.90e-05)]
+peak_172                         5.82e-01  200
+peak_173                         1.26e-01  200
+peak_174                         1.98e-01  200
+peak_175                         7.92e-01  200
+peak_176                         1.79e-01  200
+peak_177                         4.62e-01  200
+peak_178                         4.62e-01  200
+peak_179                         7.71e-01  200
+peak_180                         7.71e-01  200
+peak_181                         5.59e-01  200
+peak_182                         2.45e-01  200
+peak_183                         2.45e-01  200
+peak_184                         2.45e-01  200
+peak_185                         2.45e-01  200
+peak_186                         6.79e-01  200
+peak_187                         6.79e-01  200
+peak_188                         2.06e-01  200
+peak_189                         2.06e-01  200
+peak_190                         4.24e-01  200
+peak_191                         7.16e-01  200
+peak_192                         8.25e-01  200
+peak_193                         1.94e-01  200
+peak_194                         1.94e-01  200
+peak_195                         6.59e-09  127_[+2(8.53e-12)]_44
+peak_196                         3.51e-01  200
+peak_197                         1.00e+00  200
+peak_198                         3.40e-01  200
+peak_199                         9.49e-02  87_[+2(2.26e-05)]_84
+peak_200                         2.94e-01  200
+peak_201                         2.94e-01  200
+peak_202                         2.94e-01  200
+peak_203                         3.02e-01  200
+peak_204                         3.02e-01  200
+peak_205                         3.99e-18  26_[+2(1.92e-13)]_30_[+3(1.01e-09)]_\
+    44_[+2(7.54e-17)]_14
+peak_206                         3.99e-18  26_[+2(1.92e-13)]_30_[+3(1.01e-09)]_\
+    44_[+2(7.54e-17)]_14
+peak_207                         9.41e-02  200
+peak_208                         1.00e+00  200
+peak_209                         3.02e-01  200
+peak_210                         3.02e-01  200
+peak_211                         2.29e-01  200
+peak_212                         1.10e-01  135_[-2(9.93e-05)]_36
+peak_213                         3.70e-01  200
+peak_214                         3.70e-01  200
+peak_215                         3.51e-01  200
+peak_216                         1.89e-02  56_[+3(7.33e-06)]_116
+peak_217                         5.23e-02  114_[+1(5.92e-05)]_41
+peak_218                         6.69e-01  200
+peak_219                         6.69e-01  200
+peak_220                         4.82e-01  200
+peak_221                         2.35e-01  200
+peak_222                         2.35e-01  200
+peak_223                         1.00e-01  200
+peak_224                         6.11e-01  200
+peak_225                         2.11e-36  1_[-1(1.90e-22)]_[+3(2.82e-13)]_44_\
+    [+2(2.53e-13)]_53
+peak_226                         2.72e-02  162_[+3(1.29e-05)]_10
+peak_227                         2.72e-02  162_[+3(1.29e-05)]_10
+peak_228                         2.82e-22  43_[-1(1.07e-20)]_[+3(3.65e-10)]_84
+peak_229                         8.43e-01  200
+peak_230                         1.75e-01  200
+peak_231                         1.83e-01  154_[+2(5.39e-05)]_17
+peak_232                         6.52e-01  200
+peak_233                         6.20e-03  74_[-3(4.07e-05)]_98
+peak_234                         2.06e-01  140_[+3(9.71e-05)]_32
+peak_235                         2.21e-01  200
+peak_236                         2.21e-01  200
+peak_237                         2.14e-01  200
+peak_238                         6.76e-01  200
+peak_239                         2.94e-02  72_[-2(7.76e-06)]_99
+peak_240                         5.48e-01  200
+peak_241                         8.72e-01  200
+peak_242                         8.72e-01  200
+peak_243                         8.14e-37  18_[-3(3.43e-11)]_1_[+1(1.98e-21)]_\
+    18_[-2(7.54e-17)]_61
+peak_244                         6.62e-03  56_[-3(5.89e-06)]_116
+peak_245                         6.62e-03  56_[-3(5.89e-06)]_116
+peak_246                         4.02e-01  200
+peak_247                         3.89e-01  200
+peak_248                         5.04e-01  200
+peak_249                         1.26e-01  89_[+3(3.16e-05)]_83
+peak_250                         1.26e-01  89_[+3(3.16e-05)]_83
+peak_251                         1.26e-01  89_[+3(3.16e-05)]_83
+peak_252                         9.25e-01  200
+peak_253                         7.68e-16  68_[+1(4.21e-08)]_16_[-2(1.02e-15)]_\
+    42
+peak_254                         1.50e-07  39_[-2(1.87e-11)]_132
+peak_255                         2.39e-01  200
+peak_256                         2.69e-01  200
+peak_257                         6.61e-02  85_[+1(6.56e-05)]_70
+peak_258                         8.98e-01  200
+peak_259                         1.00e+00  200
+peak_260                         3.50e-01  200
+peak_261                         8.55e-01  200
+peak_262                         3.04e-02  132_[+1(6.02e-05)]_23
+peak_263                         3.04e-02  132_[+1(6.02e-05)]_23
+peak_264                         4.05e-01  200
+peak_265                         5.59e-01  200
+peak_266                         9.05e-02  200
+peak_267                         1.00e+00  200
+peak_268                         2.21e-02  78_[+2(1.49e-05)]_93
+peak_269                         9.40e-01  200
+peak_270                         1.53e-01  [-3(9.71e-05)]_172
+peak_271                         1.53e-01  [-3(9.71e-05)]_172
+peak_272                         6.48e-33  115_[-3(6.66e-15)]_[+1(2.12e-26)]_\
+    12
+peak_273                         6.48e-33  115_[-3(6.66e-15)]_[+1(2.12e-26)]_\
+    12
+peak_274                         6.48e-33  115_[-3(6.66e-15)]_[+1(2.12e-26)]_\
+    12
+peak_275                         1.83e-01  103_[-2(5.66e-05)]_68
+peak_276                         3.49e-01  200
+peak_277                         6.43e-36  42_[+2(1.02e-15)]_18_[-1(1.10e-21)]_\
+    [+3(3.77e-11)]_38
+peak_278                         3.47e-01  200
+peak_279                         4.67e-01  200
+peak_280                         8.35e-01  200
+peak_281                         4.66e-01  200
+peak_282                         4.66e-01  200
+peak_283                         5.75e-02  200
+peak_284                         5.32e-02  107_[+2(9.71e-05)]_64
+peak_285                         9.28e-01  200
+peak_286                         2.75e-01  200
+peak_287                         2.75e-01  200
+peak_288                         9.02e-02  200
+peak_289                         3.79e-01  200
+peak_290                         6.93e-01  200
+peak_291                         1.95e-01  94_[+1(8.30e-05)]_61
+peak_292                         1.95e-01  94_[+1(8.30e-05)]_61
+peak_293                         4.63e-01  200
+peak_294                         3.21e-01  200
+peak_295                         2.43e-01  200
+peak_296                         3.33e-01  200
+peak_297                         1.91e-01  200
+peak_298                         1.91e-01  200
+peak_299                         1.00e+00  200
+peak_300                         2.17e-01  200
+peak_301                         2.57e-09  1_[-2(1.03e-12)]_12_[+1(6.79e-05)]_\
+    113
+peak_302                         8.71e-01  200
+peak_303                         8.71e-01  200
+peak_304                         4.82e-01  200
+peak_305                         4.82e-01  200
+peak_306                         4.82e-01  200
+peak_307                         4.82e-01  200
+peak_308                         4.82e-01  200
+peak_309                         4.82e-01  200
+peak_310                         1.11e-01  200
+peak_311                         8.35e-01  200
+peak_312                         2.01e-01  200
+peak_313                         1.78e-01  13_[-3(9.99e-05)]_159
+peak_314                         3.82e-01  200
+peak_315                         8.51e-24  11_[+2(6.17e-13)]_22_[-1(1.37e-17)]_\
+    93
+peak_316                         1.24e-02  94_[+2(7.34e-05)]_77
+peak_317                         1.24e-02  94_[+2(7.34e-05)]_77
+peak_318                         6.90e-01  200
+peak_319                         7.66e-03  22_[+1(4.65e-05)]_133
+peak_320                         2.99e-01  200
+peak_321                         2.81e-01  200
+peak_322                         3.60e-01  200
+peak_323                         4.88e-01  200
+peak_324                         7.04e-01  200
+peak_325                         7.04e-01  200
+peak_326                         7.04e-01  200
+peak_327                         7.04e-01  200
+peak_328                         1.32e-14  24_[+3(2.22e-10)]_54_[+2(5.46e-12)]_\
+    32_[+3(4.28e-07)]_5
+peak_329                         9.79e-01  200
+peak_330                         6.68e-01  200
+peak_331                         4.26e-01  200
+peak_332                         9.70e-01  200
+peak_333                         1.62e-14  102_[+2(1.44e-12)]_34_\
+    [+3(3.10e-10)]_7
+peak_334                         4.18e-01  200
+peak_335                         4.18e-01  200
+peak_336                         4.18e-01  200
+peak_337                         4.18e-01  200
+peak_338                         1.58e-01  114_[-3(4.90e-05)]_58
+peak_339                         5.84e-01  200
+peak_340                         9.18e-01  200
+peak_341                         6.12e-01  200
+peak_342                         2.43e-01  200
+peak_343                         3.19e-01  200
+peak_344                         5.67e-01  200
+peak_345                         1.27e-33  2_[+2(4.70e-12)]_19_[-1(4.89e-22)]_\
+    [+3(4.13e-12)]_77
+peak_346                         1.27e-33  2_[+2(4.70e-12)]_19_[-1(4.89e-22)]_\
+    [+3(4.13e-12)]_77
+peak_347                         1.27e-33  2_[+2(4.70e-12)]_19_[-1(4.89e-22)]_\
+    [+3(4.13e-12)]_77
+peak_348                         1.27e-33  2_[+2(4.70e-12)]_19_[-1(4.89e-22)]_\
+    [+3(4.13e-12)]_77
+peak_349                         9.12e-01  200
+peak_350                         4.22e-01  200
+peak_351                         1.53e-01  112_[-3(6.06e-05)]_60
+peak_352                         6.64e-01  200
+peak_353                         6.64e-01  200
+peak_354                         1.99e-01  200
+peak_355                         7.16e-02  122_[+3(8.40e-05)]_50
+peak_356                         1.99e-01  200
+peak_357                         1.00e+00  200
+peak_358                         1.00e+00  200
+peak_359                         5.86e-31  12_[+3(1.02e-10)]_41_[+2(1.39e-10)]_\
+    18_[-1(3.58e-22)]_27
+peak_360                         6.76e-01  200
+peak_361                         6.76e-01  200
+peak_362                         7.71e-01  200
+peak_363                         3.34e-01  200
+peak_364                         9.55e-01  200
+peak_365                         9.55e-01  200
+peak_366                         5.57e-45  2_[+3(1.58e-10)]_47_[+2(7.54e-17)]_\
+    18_[-1(1.58e-25)]_[+3(2.02e-15)]_3
+peak_367                         2.94e-01  200
+peak_368                         8.87e-01  200
+peak_369                         9.87e-38  63_[+2(4.12e-16)]_18_[-1(3.64e-24)]_\
+    1_[+3(3.96e-10)]_16
+peak_370                         2.27e-16  23_[+2(2.52e-12)]_32_[+3(4.29e-10)]_\
+    48_[+2(5.68e-15)]_11
+peak_371                         1.00e+00  200
+peak_372                         1.00e+00  200
+peak_373                         9.43e-01  200
+peak_374                         9.43e-01  200
+peak_375                         3.06e-17  28_[+2(5.68e-15)]_39_[+3(4.54e-11)]_\
+    76
+peak_376                         3.06e-17  28_[+2(5.68e-15)]_39_[+3(4.54e-11)]_\
+    76
+peak_377                         3.06e-17  28_[+2(5.68e-15)]_39_[+3(4.54e-11)]_\
+    76
+peak_378                         1.82e-01  200
+peak_379                         1.82e-01  200
+peak_380                         3.81e-39  10_[+1(1.26e-26)]_18_[-2(1.29e-16)]_\
+    48_[-3(1.31e-08)]_22
+peak_381                         1.69e-39  49_[-3(3.20e-13)]_[+1(2.44e-25)]_18_\
+    [-2(1.19e-13)]_31
+peak_382                         1.69e-39  49_[-3(3.20e-13)]_[+1(2.44e-25)]_18_\
+    [-2(1.19e-13)]_31
+peak_383                         2.37e-01  200
+peak_384                         9.97e-02  124_[+2(5.02e-05)]_47
+peak_385                         6.13e-01  200
+peak_386                         5.66e-01  200
+peak_387                         5.66e-01  200
+peak_388                         5.66e-01  200
+peak_389                         9.87e-01  200
+peak_390                         1.63e-02  153_[+3(2.01e-05)]_19
+peak_391                         2.81e-01  200
+peak_392                         9.57e-29  106_[-3(5.12e-12)]_[+1(1.58e-25)]_\
+    21
+peak_393                         5.18e-01  200
+peak_394                         7.62e-02  200
+peak_395                         2.51e-01  200
+peak_396                         5.09e-01  200
+peak_397                         2.81e-01  200
+peak_398                         2.95e-02  59_[+1(1.34e-05)]_96
+peak_399                         1.12e-01  200
+peak_400                         4.33e-02  157_[-2(8.65e-05)]_14
+peak_401                         3.11e-01  200
+peak_402                         8.40e-01  200
+peak_403                         6.41e-43  15_[+2(7.92e-16)]_18_[-1(3.40e-26)]_\
+    [+3(1.12e-13)]_65
+peak_404                         1.06e-27  69_[-3(3.10e-10)]_[+1(1.49e-14)]_11_\
+    [-2(2.46e-15)]_18
+peak_405                         1.06e-27  69_[-3(3.10e-10)]_[+1(1.49e-14)]_11_\
+    [-2(2.46e-15)]_18
+peak_406                         1.15e-01  200
+peak_407                         2.65e-01  200
+peak_408                         4.90e-02  200
+peak_409                         4.90e-02  200
+peak_410                         6.66e-01  200
+peak_411                         3.94e-19  22_[-3(2.67e-12)]_26_[-2(1.39e-14)]_\
+    95
+peak_412                         4.22e-07  167_[-3(7.78e-12)]_5
+peak_413                         4.95e-02  141_[-2(2.32e-05)]_30
+peak_414                         2.73e-01  200
+peak_415                         2.31e-01  200
+peak_416                         8.28e-39  17_[-3(2.43e-08)]_1_[+1(9.85e-25)]_\
+    18_[-2(1.98e-18)]_62
+peak_417                         3.33e-01  200
+peak_418                         6.17e-01  200
+peak_419                         1.00e+00  200
+peak_420                         5.89e-01  200
+peak_421                         5.89e-01  200
+peak_422                         1.68e-01  200
+peak_423                         1.68e-01  200
+peak_424                         4.71e-01  200
+peak_425                         2.77e-02  77_[-1(4.19e-05)]_78
+peak_426                         9.00e-01  200
+peak_427                         4.69e-01  200
+peak_428                         4.69e-01  200
+peak_429                         9.30e-03  132_[-1(6.69e-06)]_23
+peak_430                         9.30e-03  132_[-1(6.69e-06)]_23
+peak_431                         1.22e-35  18_[+2(5.18e-13)]_19_[-1(1.95e-19)]_\
+    [+3(8.05e-16)]_61
+peak_432                         6.41e-02  200
+peak_433                         6.22e-01  200
+peak_434                         6.22e-01  200
+peak_435                         1.34e-02  7_[+1(3.22e-05)]_148
+peak_436                         4.74e-02  200
+peak_437                         4.74e-02  200
+peak_438                         6.92e-01  200
+peak_439                         6.35e-01  200
+peak_440                         2.57e-02  88_[+2(4.33e-05)]_83
+peak_441                         6.16e-01  200
+peak_442                         7.06e-01  200
+peak_443                         4.61e-01  200
+peak_444                         4.10e-01  200
+peak_445                         5.95e-01  200
+peak_446                         5.95e-01  200
+peak_447                         3.05e-02  200
+peak_448                         8.17e-01  200
+peak_449                         9.45e-21  52_[-3(2.57e-11)]_[+1(3.28e-15)]_18_\
+    [-2(2.04e-06)]_28
+peak_450                         3.09e-01  200
+peak_451                         9.49e-01  200
+peak_452                         4.27e-01  200
+peak_453                         4.74e-01  200
+peak_454                         1.92e-12  32_[-2(1.32e-12)]_77_[-3(7.64e-08)]_\
+    34
+peak_455                         3.15e-01  200
+peak_456                         3.15e-01  200
+peak_457                         3.15e-01  200
+peak_458                         2.97e-01  200
+peak_459                         2.22e-01  200
+peak_460                         9.12e-02  200
+peak_461                         2.11e-02  200
+peak_462                         8.38e-01  200
+peak_463                         8.38e-01  200
+peak_464                         8.38e-01  200
+peak_465                         2.89e-01  200
+peak_466                         4.85e-01  200
+peak_467                         4.88e-01  200
+peak_468                         6.67e-01  200
+peak_469                         6.22e-01  200
+peak_470                         6.93e-01  200
+peak_471                         6.93e-01  200
+peak_472                         6.93e-01  200
+peak_473                         4.04e-02  200
+peak_474                         1.86e-02  163_[+2(6.94e-06)]_8
+peak_475                         4.54e-16  61_[-3(9.38e-10)]_35_[-2(2.39e-14)]_\
+    47
+peak_476                         1.71e-01  158_[+2(5.39e-05)]_13
+peak_477                         1.71e-01  158_[+2(5.39e-05)]_13
+peak_478                         1.20e-01  200
+peak_479                         2.49e-01  200
+peak_480                         2.49e-01  200
+peak_481                         2.49e-01  200
+peak_482                         3.21e-02  110_[-2(5.02e-05)]_61
+peak_483                         4.06e-01  200
+peak_484                         6.85e-01  200
+--------------------------------------------------------------------------------
+
+********************************************************************************
+
+
+********************************************************************************
+Stopped because requested number of motifs (3) found.
+********************************************************************************
+
+CPU: noble-meme.grid.gs.washington.edu
+
+********************************************************************************
